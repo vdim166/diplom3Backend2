@@ -1,0 +1,18 @@
+{
+  "users": {
+    "vadim": {
+      "username": "vadim",
+      "email": null,
+      "full_name": null,
+      "hashed_password": "$2b$12$hlwriAWVhTICRAdRGzSNtucj758YCp3wjiqyXldglZL3bE1zzrbTK",
+      "disabled": false
+    },
+    "": {
+      "username": "",
+      "email": null,
+      "full_name": null,
+      "hashed_password": "$2b$12$e86uX45Pze7aty9uqmwgh.gL3GkxCf2yHjOfP6BqyHTnwo0kcUooe",
+      "disabled": false
+    }
+  }
+}

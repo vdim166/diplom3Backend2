@@ -1,0 +1,173 @@
+{
+  "storages": [
+    {
+      "id": "storage_1",
+      "name": "\u0421\u043a\u043b\u0430\u0434 1",
+      "location": "\u041b\u043e\u043a\u0430\u0446\u0438\u044f 1",
+      "capacity": 1000,
+      "current_load": 0
+    },
+    {
+      "id": "storage_2",
+      "name": "\u0421\u043a\u043b\u0430\u0434 2",
+      "location": "\u041b\u043e\u043a\u0430\u0446\u0438\u044f 2",
+      "capacity": 1000,
+      "current_load": 0
+    },
+    {
+      "id": "storage_3",
+      "name": "\u0421\u043a\u043b\u0430\u0434 3",
+      "location": "\u041b\u043e\u043a\u0430\u0446\u0438\u044f 3",
+      "capacity": 1000,
+      "current_load": 0
+    },
+    {
+      "id": "storage_4",
+      "name": "\u0421\u043a\u043b\u0430\u0434 4",
+      "location": "\u041b\u043e\u043a\u0430\u0446\u0438\u044f 4",
+      "capacity": 1000,
+      "current_load": 0
+    },
+    {
+      "id": "storage_5",
+      "name": "\u0421\u043a\u043b\u0430\u0434 5",
+      "location": "\u041b\u043e\u043a\u0430\u0446\u0438\u044f 5",
+      "capacity": 1000,
+      "current_load": 0
+    },
+    {
+      "id": "storage_6",
+      "name": "\u0421\u043a\u043b\u0430\u0434 6",
+      "location": "\u041b\u043e\u043a\u0430\u0446\u0438\u044f 6",
+      "capacity": 1000,
+      "current_load": 0
+    },
+    {
+      "id": "storage_7",
+      "name": "\u0421\u043a\u043b\u0430\u0434 7",
+      "location": "\u041b\u043e\u043a\u0430\u0446\u0438\u044f 7",
+      "capacity": 1000,
+      "current_load": 0
+    },
+    {
+      "id": "storage_8",
+      "name": "\u0421\u043a\u043b\u0430\u0434 8",
+      "location": "\u041b\u043e\u043a\u0430\u0446\u0438\u044f 8",
+      "capacity": 1000,
+      "current_load": 0
+    },
+    {
+      "id": "storage_9",
+      "name": "\u0421\u043a\u043b\u0430\u0434 9",
+      "location": "\u041b\u043e\u043a\u0430\u0446\u0438\u044f 9",
+      "capacity": 1000,
+      "current_load": 0
+    },
+    {
+      "id": "storage_10",
+      "name": "\u0421\u043a\u043b\u0430\u0434 10",
+      "location": "\u041b\u043e\u043a\u0430\u0446\u0438\u044f 10",
+      "capacity": 1000,
+      "current_load": 0
+    },
+    {
+      "id": "storage_11",
+      "name": "\u0421\u043a\u043b\u0430\u0434 11",
+      "location": "\u041b\u043e\u043a\u0430\u0446\u0438\u044f 11",
+      "capacity": 1000,
+      "current_load": 0
+    },
+    {
+      "id": "storage_12",
+      "name": "\u0421\u043a\u043b\u0430\u0434 12",
+      "location": "\u041b\u043e\u043a\u0430\u0446\u0438\u044f 12",
+      "capacity": 1000,
+      "current_load": 0
+    },
+    {
+      "id": "storage_13",
+      "name": "\u0421\u043a\u043b\u0430\u0434 13",
+      "location": "\u041b\u043e\u043a\u0430\u0446\u0438\u044f 13",
+      "capacity": 1000,
+      "current_load": 0
+    },
+    {
+      "id": "storage_14",
+      "name": "\u0421\u043a\u043b\u0430\u0434 14",
+      "location": "\u041b\u043e\u043a\u0430\u0446\u0438\u044f 14",
+      "capacity": 1000,
+      "current_load": 0
+    },
+    {
+      "id": "storage_15",
+      "name": "\u0421\u043a\u043b\u0430\u0434 15",
+      "location": "\u041b\u043e\u043a\u0430\u0446\u0438\u044f 15",
+      "capacity": 1000,
+      "current_load": 0
+    },
+    {
+      "id": "storage_16",
+      "name": "\u0421\u043a\u043b\u0430\u0434 16",
+      "location": "\u041b\u043e\u043a\u0430\u0446\u0438\u044f 16",
+      "capacity": 1000,
+      "current_load": 0
+    },
+    {
+      "id": "storage_17",
+      "name": "\u0421\u043a\u043b\u0430\u0434 17",
+      "location": "\u041b\u043e\u043a\u0430\u0446\u0438\u044f 17",
+      "capacity": 1000,
+      "current_load": 0
+    },
+    {
+      "id": "storage_18",
+      "name": "\u0421\u043a\u043b\u0430\u0434 18",
+      "location": "\u041b\u043e\u043a\u0430\u0446\u0438\u044f 18",
+      "capacity": 1000,
+      "current_load": 0
+    },
+    {
+      "id": "storage_19",
+      "name": "\u0421\u043a\u043b\u0430\u0434 19",
+      "location": "\u041b\u043e\u043a\u0430\u0446\u0438\u044f 19",
+      "capacity": 1000,
+      "current_load": 0
+    },
+    {
+      "id": "storage_20",
+      "name": "\u0421\u043a\u043b\u0430\u0434 20",
+      "location": "\u041b\u043e\u043a\u0430\u0446\u0438\u044f 20",
+      "capacity": 1000,
+      "current_load": 0
+    },
+    {
+      "id": "storage_21",
+      "name": "\u0421\u043a\u043b\u0430\u0434 21",
+      "location": "\u041b\u043e\u043a\u0430\u0446\u0438\u044f 21",
+      "capacity": 1000,
+      "current_load": 0
+    },
+    {
+      "id": "storage_22",
+      "name": "\u0421\u043a\u043b\u0430\u0434 22",
+      "location": "\u041b\u043e\u043a\u0430\u0446\u0438\u044f 22",
+      "capacity": 1000,
+      "current_load": 0
+    },
+    {
+      "id": "storage_23",
+      "name": "\u0421\u043a\u043b\u0430\u0434 23",
+      "location": "\u041b\u043e\u043a\u0430\u0446\u0438\u044f 23",
+      "capacity": 1000,
+      "current_load": 0
+    },
+    {
+      "id": "storage_24",
+      "name": "\u0421\u043a\u043b\u0430\u0434 24",
+      "location": "\u041b\u043e\u043a\u0430\u0446\u0438\u044f 24",
+      "capacity": 1000,
+      "current_load": 0
+    }
+  ],
+  "items": {}
+}
