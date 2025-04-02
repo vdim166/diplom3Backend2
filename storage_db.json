@@ -2,172 +2,389 @@
   "storages": [
     {
       "id": "storage_1",
-      "name": "\u0421\u043a\u043b\u0430\u0434 1",
-      "location": "\u041b\u043e\u043a\u0430\u0446\u0438\u044f 1",
+      "name": "Основной склад",
+      "location": "Зона A",
       "capacity": 1000,
-      "current_load": 0
+      "current_load": 42
     },
     {
       "id": "storage_2",
-      "name": "\u0421\u043a\u043b\u0430\u0434 2",
-      "location": "\u041b\u043e\u043a\u0430\u0446\u0438\u044f 2",
-      "capacity": 1000,
-      "current_load": 0
+      "name": "Холодильник №1",
+      "location": "Зона B",
+      "capacity": 500,
+      "current_load": 36
     },
     {
       "id": "storage_3",
-      "name": "\u0421\u043a\u043b\u0430\u0434 3",
-      "location": "\u041b\u043e\u043a\u0430\u0446\u0438\u044f 3",
-      "capacity": 1000,
-      "current_load": 0
+      "name": "Овощной склад",
+      "location": "Зона C",
+      "capacity": 800,
+      "current_load": 18
     },
     {
       "id": "storage_4",
-      "name": "\u0421\u043a\u043b\u0430\u0434 4",
-      "location": "\u041b\u043e\u043a\u0430\u0446\u0438\u044f 4",
-      "capacity": 1000,
-      "current_load": 0
+      "name": "Фруктовый склад",
+      "location": "Зона A",
+      "capacity": 700,
+      "current_load": 38
     },
     {
       "id": "storage_5",
-      "name": "\u0421\u043a\u043b\u0430\u0434 5",
-      "location": "\u041b\u043e\u043a\u0430\u0446\u0438\u044f 5",
-      "capacity": 1000,
-      "current_load": 0
+      "name": "Молочный склад",
+      "location": "Зона B",
+      "capacity": 600,
+      "current_load": 15
     },
     {
       "id": "storage_6",
-      "name": "\u0421\u043a\u043b\u0430\u0434 6",
-      "location": "\u041b\u043e\u043a\u0430\u0446\u0438\u044f 6",
-      "capacity": 1000,
-      "current_load": 0
+      "name": "Мясной склад",
+      "location": "Зона C",
+      "capacity": 400,
+      "current_load": 25
     },
     {
       "id": "storage_7",
-      "name": "\u0421\u043a\u043b\u0430\u0434 7",
-      "location": "\u041b\u043e\u043a\u0430\u0446\u0438\u044f 7",
-      "capacity": 1000,
-      "current_load": 0
+      "name": "Хлебный склад",
+      "location": "Зона A",
+      "capacity": 300,
+      "current_load": 20
     },
     {
       "id": "storage_8",
-      "name": "\u0421\u043a\u043b\u0430\u0434 8",
-      "location": "\u041b\u043e\u043a\u0430\u0446\u0438\u044f 8",
-      "capacity": 1000,
-      "current_load": 0
+      "name": "Напитки",
+      "location": "Зона B",
+      "capacity": 900,
+      "current_load": 12
     },
     {
       "id": "storage_9",
-      "name": "\u0421\u043a\u043b\u0430\u0434 9",
-      "location": "\u041b\u043e\u043a\u0430\u0446\u0438\u044f 9",
-      "capacity": 1000,
-      "current_load": 0
+      "name": "Бакалея",
+      "location": "Зона C",
+      "capacity": 1200,
+      "current_load": 30
     },
     {
       "id": "storage_10",
-      "name": "\u0421\u043a\u043b\u0430\u0434 10",
-      "location": "\u041b\u043e\u043a\u0430\u0446\u0438\u044f 10",
-      "capacity": 1000,
-      "current_load": 0
+      "name": "Заморозка",
+      "location": "Зона A",
+      "capacity": 500,
+      "current_load": 16
     },
     {
       "id": "storage_11",
-      "name": "\u0421\u043a\u043b\u0430\u0434 11",
-      "location": "\u041b\u043e\u043a\u0430\u0446\u0438\u044f 11",
-      "capacity": 1000,
-      "current_load": 0
+      "name": "Консервация",
+      "location": "Зона B",
+      "capacity": 800,
+      "current_load": 60
     },
     {
       "id": "storage_12",
-      "name": "\u0421\u043a\u043b\u0430\u0434 12",
-      "location": "\u041b\u043e\u043a\u0430\u0446\u0438\u044f 12",
+      "name": "Склад №12",
+      "location": "Зона C",
       "capacity": 1000,
-      "current_load": 0
+      "current_load": 28
     },
     {
       "id": "storage_13",
-      "name": "\u0421\u043a\u043b\u0430\u0434 13",
-      "location": "\u041b\u043e\u043a\u0430\u0446\u0438\u044f 13",
-      "capacity": 1000,
-      "current_load": 0
+      "name": "Склад №13",
+      "location": "Зона A",
+      "capacity": 750,
+      "current_load": 45
     },
     {
       "id": "storage_14",
-      "name": "\u0421\u043a\u043b\u0430\u0434 14",
-      "location": "\u041b\u043e\u043a\u0430\u0446\u0438\u044f 14",
-      "capacity": 1000,
-      "current_load": 0
+      "name": "Склад №14",
+      "location": "Зона B",
+      "capacity": 850,
+      "current_load": 22
     },
     {
       "id": "storage_15",
-      "name": "\u0421\u043a\u043b\u0430\u0434 15",
-      "location": "\u041b\u043e\u043a\u0430\u0446\u0438\u044f 15",
-      "capacity": 1000,
-      "current_load": 0
+      "name": "Склад №15",
+      "location": "Зона C",
+      "capacity": 950,
+      "current_load": 50
     },
     {
       "id": "storage_16",
-      "name": "\u0421\u043a\u043b\u0430\u0434 16",
-      "location": "\u041b\u043e\u043a\u0430\u0446\u0438\u044f 16",
-      "capacity": 1000,
-      "current_load": 0
+      "name": "Склад №16",
+      "location": "Зона A",
+      "capacity": 650,
+      "current_load": 40
     },
     {
       "id": "storage_17",
-      "name": "\u0421\u043a\u043b\u0430\u0434 17",
-      "location": "\u041b\u043e\u043a\u0430\u0446\u0438\u044f 17",
-      "capacity": 1000,
-      "current_load": 0
+      "name": "Склад №17",
+      "location": "Зона B",
+      "capacity": 550,
+      "current_load": 15
     },
     {
       "id": "storage_18",
-      "name": "\u0421\u043a\u043b\u0430\u0434 18",
-      "location": "\u041b\u043e\u043a\u0430\u0446\u0438\u044f 18",
-      "capacity": 1000,
-      "current_load": 0
+      "name": "Склад №18",
+      "location": "Зона C",
+      "capacity": 450,
+      "current_load": 24
     },
     {
       "id": "storage_19",
-      "name": "\u0421\u043a\u043b\u0430\u0434 19",
-      "location": "\u041b\u043e\u043a\u0430\u0446\u0438\u044f 19",
-      "capacity": 1000,
-      "current_load": 0
+      "name": "Склад №19",
+      "location": "Зона A",
+      "capacity": 350,
+      "current_load": 35
     },
     {
       "id": "storage_20",
-      "name": "\u0421\u043a\u043b\u0430\u0434 20",
-      "location": "\u041b\u043e\u043a\u0430\u0446\u0438\u044f 20",
-      "capacity": 1000,
-      "current_load": 0
+      "name": "Склад №20",
+      "location": "Зона B",
+      "capacity": 250,
+      "current_load": 72
     },
     {
       "id": "storage_21",
-      "name": "\u0421\u043a\u043b\u0430\u0434 21",
-      "location": "\u041b\u043e\u043a\u0430\u0446\u0438\u044f 21",
-      "capacity": 1000,
-      "current_load": 0
+      "name": "Склад №21",
+      "location": "Зона C",
+      "capacity": 150,
+      "current_load": 20
     },
     {
       "id": "storage_22",
-      "name": "\u0421\u043a\u043b\u0430\u0434 22",
-      "location": "\u041b\u043e\u043a\u0430\u0446\u0438\u044f 22",
-      "capacity": 1000,
-      "current_load": 0
+      "name": "Склад №22",
+      "location": "Зона A",
+      "capacity": 200,
+      "current_load": 36
     },
     {
       "id": "storage_23",
-      "name": "\u0421\u043a\u043b\u0430\u0434 23",
-      "location": "\u041b\u043e\u043a\u0430\u0446\u0438\u044f 23",
-      "capacity": 1000,
-      "current_load": 0
+      "name": "Склад №23",
+      "location": "Зона B",
+      "capacity": 300,
+      "current_load": 42
     },
     {
       "id": "storage_24",
-      "name": "\u0421\u043a\u043b\u0430\u0434 24",
-      "location": "\u041b\u043e\u043a\u0430\u0446\u0438\u044f 24",
+      "name": "Резервный склад",
+      "location": "Зона C",
       "capacity": 1000,
-      "current_load": 0
+      "current_load": 28
     }
   ],
-  "items": {}
+  "items": {
+    "storage_1": [
+      {
+        "id": "item_1",
+        "name": "Яблоки",
+        "count": 42,
+        "storage_id": "storage_1",
+        "category": "Фрукты"
+      }
+    ],
+    "storage_2": [
+      {
+        "id": "item_2",
+        "name": "Бананы",
+        "count": 36,
+        "storage_id": "storage_2",
+        "category": "Фрукты"
+      }
+    ],
+    "storage_3": [
+      {
+        "id": "item_3",
+        "name": "Мешки картофеля",
+        "count": 18,
+        "storage_id": "storage_3",
+        "category": "Овощи"
+      }
+    ],
+    "storage_4": [
+      {
+        "id": "item_4",
+        "name": "Помидоры",
+        "count": 38,
+        "storage_id": "storage_4",
+        "category": "Овощи"
+      }
+    ],
+    "storage_5": [
+      {
+        "id": "item_5",
+        "name": "Упаковки молока",
+        "count": 15,
+        "storage_id": "storage_5",
+        "category": "Молочные продукты"
+      }
+    ],
+    "storage_6": [
+      {
+        "id": "item_6",
+        "name": "Куриные грудки",
+        "count": 25,
+        "storage_id": "storage_6",
+        "category": "Мясо"
+      }
+    ],
+    "storage_7": [
+      {
+        "id": "item_7",
+        "name": "Буханки хлеба",
+        "count": 20,
+        "storage_id": "storage_7",
+        "category": "Хлебобулочные изделия"
+      }
+    ],
+    "storage_8": [
+      {
+        "id": "item_8",
+        "name": "Апельсиновый сок",
+        "count": 12,
+        "storage_id": "storage_8",
+        "category": "Напитки"
+      }
+    ],
+    "storage_9": [
+      {
+        "id": "item_9",
+        "name": "Коробки хлопьев",
+        "count": 30,
+        "storage_id": "storage_9",
+        "category": "Бакалея"
+      }
+    ],
+    "storage_10": [
+      {
+        "id": "item_10",
+        "name": "Замороженная пицца",
+        "count": 16,
+        "storage_id": "storage_10",
+        "category": "Замороженные продукты"
+      }
+    ],
+    "storage_11": [
+      {
+        "id": "item_11",
+        "name": "Консервированная фасоль",
+        "count": 60,
+        "storage_id": "storage_11",
+        "category": "Консервы"
+      }
+    ],
+    "storage_12": [
+      {
+        "id": "item_12",
+        "name": "Пачки кофе",
+        "count": 28,
+        "storage_id": "storage_12",
+        "category": "Бакалея"
+      }
+    ],
+    "storage_13": [
+      {
+        "id": "item_13",
+        "name": "Йогурты",
+        "count": 45,
+        "storage_id": "storage_13",
+        "category": "Молочные продукты"
+      }
+    ],
+    "storage_14": [
+      {
+        "id": "item_14",
+        "name": "Сырные головки",
+        "count": 22,
+        "storage_id": "storage_14",
+        "category": "Молочные продукты"
+      }
+    ],
+    "storage_15": [
+      {
+        "id": "item_15",
+        "name": "Лук",
+        "count": 50,
+        "storage_id": "storage_15",
+        "category": "Овощи"
+      }
+    ],
+    "storage_16": [
+      {
+        "id": "item_16",
+        "name": "Коробки пасты",
+        "count": 40,
+        "storage_id": "storage_16",
+        "category": "Бакалея"
+      }
+    ],
+    "storage_17": [
+      {
+        "id": "item_17",
+        "name": "Мешки риса",
+        "count": 15,
+        "storage_id": "storage_17",
+        "category": "Бакалея"
+      }
+    ],
+    "storage_18": [
+      {
+        "id": "item_18",
+        "name": "Мороженое",
+        "count": 24,
+        "storage_id": "storage_18",
+        "category": "Замороженные продукты"
+      }
+    ],
+    "storage_19": [
+      {
+        "id": "item_19",
+        "name": "Пачки чипсов",
+        "count": 35,
+        "storage_id": "storage_19",
+        "category": "Снеки"
+      }
+    ],
+    "storage_20": [
+      {
+        "id": "item_20",
+        "name": "Яйца",
+        "count": 72,
+        "storage_id": "storage_20",
+        "category": "Молочные продукты"
+      }
+    ],
+    "storage_21": [
+      {
+        "id": "item_21",
+        "name": "Буханки хлеба",
+        "count": 20,
+        "storage_id": "storage_21",
+        "category": "Хлебобулочные изделия"
+      }
+    ],
+    "storage_22": [
+      {
+        "id": "item_22",
+        "name": "Бананы",
+        "count": 36,
+        "storage_id": "storage_22",
+        "category": "Фрукты"
+      }
+    ],
+    "storage_23": [
+      {
+        "id": "item_23",
+        "name": "Яблоки",
+        "count": 42,
+        "storage_id": "storage_23",
+        "category": "Фрукты"
+      }
+    ],
+    "storage_24": [
+      {
+        "id": "item_24",
+        "name": "Пачки кофе",
+        "count": 28,
+        "storage_id": "storage_24",
+        "category": "Бакалея"
+      }
+    ]
+  }
 }

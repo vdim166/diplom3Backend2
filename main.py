@@ -18,8 +18,8 @@ from StorageDB import StorageDB, Item, Storage, ItemCreate, ItemUpdate
 db = FileDatabase("database.json")
 task_db = TaskDB()
 
-db = StorageDB()
-db.init_storages()
+storage_db = StorageDB()
+# storage_db.init_storages()
 
 # JWT settings
 SECRET_KEY = "my-secret-key"  # Change this in production!
@@ -249,30 +249,30 @@ async def delete_task(task_id: str):
 @app.post("/storages/{storage_id}/items", response_model=Item)
 async def add_item(storage_id: str, item_data: ItemCreate = Body(...)):
     try:
-        return db.add_item(storage_id, item_data)
+        return storage_db.add_item(storage_id, item_data)
     except ValueError as e:
         raise HTTPException(status_code=404, detail=str(e))
 
 @app.get("/items", response_model=List[Item])
 async def get_items(storage_id: Optional[str] = None):
-    return db.get_items(storage_id)
+    return storage_db.get_items(storage_id)
 
 @app.put("/items/{item_id}", response_model=Item)
 async def update_item(item_id: str, update_data: ItemUpdate = Body(...)):
-    item = db.update_item(item_id, update_data)
+    item = storage_db.update_item(item_id, update_data)
     if not item:
         raise HTTPException(status_code=404, detail="Товар не найден")
     return item
 
 @app.delete("/items/{item_id}")
 async def delete_item(item_id: str):
-    if not db.delete_item(item_id):
+    if not storage_db.delete_item(item_id):
         raise HTTPException(status_code=404, detail="Товар не найден")
     return {"message": "Товар удален"}
 
 @app.get("/storages", response_model=Dict[str, Storage])
 async def get_storages():
-    return db.storages
+    return storage_db.storages
 
 
 if __name__ == "__main__":

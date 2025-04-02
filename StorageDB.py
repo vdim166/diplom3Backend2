@@ -4,7 +4,7 @@ import json
 import os
 from uuid import uuid4
 
-
+import chardet
 
 # Модели данных
 class Item(BaseModel):
@@ -41,16 +41,21 @@ class StorageDB:
 
     def _load(self):
         if os.path.exists(self.file_path):
-            with open(self.file_path, 'r') as f:
-                data = json.load(f)
-                self.storages = {
-                    s["id"]: Storage(**s) 
-                    for s in data.get("storages", [])
-                }
-                self.items = {
-                    storage_id: [Item(**item) for item in items]
-                    for storage_id, items in data.get("items", {}).items()
-                }
+            with open("storage_db.json", "rb") as f:
+                raw_data = f.read()
+                detected = chardet.detect(raw_data)
+                encoding = detected["encoding"]
+                with open(self.file_path, 'r', encoding=encoding) as f:
+                    data = json.load(f)
+                
+                    self.storages = {
+                        s["id"]: Storage(**s) 
+                        for s in data.get("storages", [])
+                    }
+                    self.items = {
+                        storage_id: [Item(**item) for item in items]
+                        for storage_id, items in data.get("items", {}).items()
+                    }
 
     def _save(self):
         with open(self.file_path, 'w') as f:

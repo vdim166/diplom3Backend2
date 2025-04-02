@@ -1,11 +1,5 @@
 {
   "todo": {
-    "vadim": []
-  },
-  "in_progress": {
-    "vadim": []
-  },
-  "done": {
     "vadim": [
       {
         "id": "3558fa4f-50e9-4a08-976a-99e1561bb91f",
@@ -13,8 +7,14 @@
         "description": "",
         "assigned_to": "vadim",
         "created_at": "2025-03-31 22:37:13.689014",
-        "status": "done"
+        "status": "todo"
       }
     ]
+  },
+  "in_progress": {
+    "vadim": []
+  },
+  "done": {
+    "vadim": []
   }
 }
