@@ -7,7 +7,7 @@ import os
 
 
 class PricePredictor:
-    def __init__(self, model_dir='.'):
+    def __init__(self, model_dir='model_artifacts'):
         self.model_dir = model_dir
         self.model = None
         self.scaler = None
@@ -18,17 +18,24 @@ class PricePredictor:
     def load(self):
         """Load all artifacts"""
         try:
-            # Load model (supports both .h5 and saved_model formats)
             model_path = os.path.join(self.model_dir, 'price_model.h5')
-            if os.path.isdir(model_path):  # For saved_model format
+            if os.path.isdir(model_path):  
+                print('1')
                 self.model = tf.keras.models.load_model(model_path)
-            else:  # For .h5 format
+            else: 
+                print('2')
                 self.model = load_model(model_path)
             
-            # Load preprocessing objects
             self.scaler = joblib.load(os.path.join(self.model_dir, 'scaler.pkl'))
             self.encoder = joblib.load(os.path.join(self.model_dir, 'encoder.pkl'))
             self.product_categories = joblib.load(os.path.join(self.model_dir, 'product_categories.pkl'))
+
+            product_encoding = joblib.load('model_artifacts/product_encoding.pkl')
+
+            index_to_product = {idx: product for product, idx in product_encoding.items()}
+            print("Соответствие индексов и названий продуктов:")
+            for idx, product in sorted(index_to_product.items()):
+                print(f"Индекс {idx}: {product}")
             
             return True
         except Exception as e:
@@ -41,24 +48,19 @@ class PricePredictor:
             raise RuntimeError("Please load artifacts first with load()")
             
         try:
-            # Convert to DataFrame
             input_df = pd.DataFrame([input_data])
             
-            # Validate features
             missing = set(self.features) - set(input_df.columns)
             if missing:
                 raise ValueError(f"Missing features: {missing}")
                 
-            # Validate product code
             if input_df['product_code'].iloc[0] not in self.product_categories:
                 print(f"Warning: Unknown product code {input_df['product_code'].iloc[0]}")
             
-            # Preprocess
             scaled = self.scaler.transform(input_df[self.features[:-1]])
             encoded = self.encoder.transform(input_df[['product_code']]).toarray()
             final_input = np.concatenate([scaled, encoded], axis=1)
             
-            # Predict
             return float(self.model.predict(final_input)[0][0])
             
         except Exception as e:

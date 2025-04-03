@@ -32,6 +32,14 @@
         "assigned_to": "vadim",
         "created_at": "2025-04-02 18:46:30.163844",
         "status": "todo"
+      },
+      {
+        "id": "d5537af4-b49c-42c8-be0d-65ebfe9a5039",
+        "title": "\u041d\u0435\u043e\u0431\u0445\u043e\u0434\u0438\u043c\u043e \u0437\u0430\u043a\u0443\u043f\u0438\u0442\u044c \u041a\u0430\u0440\u0442\u043e\u0444\u0435\u043b\u044c",
+        "description": "",
+        "assigned_to": "vadim",
+        "created_at": "2025-04-04 02:44:34.747844",
+        "status": "todo"
       }
     ]
   },

@@ -96,11 +96,9 @@ class TaskDB:
             for user, tasks in self.data[status.value].items():
                 for i, task in enumerate(tasks):
                     if task.id == task_id:
-                        # Handle status change
                         if update_data.status and update_data.status != status:
                             return self._move_task(task, status, update_data)
                         
-                        # Regular update
                         updated_task = task.copy(update=update_data.dict(exclude_unset=True))
                         self.data[status.value][user][i] = updated_task
                         self._save()
@@ -108,17 +106,14 @@ class TaskDB:
         return None
 
     def _move_task(self, task: Task, old_status: TaskStatus, update_data: TaskUpdate) -> Task:
-        # Remove from old status
         self.data[old_status.value][task.assigned_to] = [
             t for t in self.data[old_status.value][task.assigned_to] 
             if t.id != task.id
         ]
         
-        # Update task fields
         updated_task = task.copy(update=update_data.dict(exclude_unset=True))
         updated_task.status = update_data.status
         
-        # Add to new status
         new_assignee = update_data.assigned_to if update_data.assigned_to else task.assigned_to
         if new_assignee not in self.data[updated_task.status.value]:
             self.data[updated_task.status.value][new_assignee] = []

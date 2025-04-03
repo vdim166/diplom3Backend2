@@ -6,7 +6,6 @@ from uuid import uuid4
 
 import chardet
 
-# Модели данных
 class Item(BaseModel):
     id: str
     name: str
@@ -96,7 +95,6 @@ class StorageDB:
             self.items[storage_id] = []
         self.items[storage_id].append(new_item)
         
-        # Обновляем загрузку хранилища
         storage = self.storages[storage_id]
         storage.current_load += item_data.count
         self._save()
@@ -111,16 +109,13 @@ class StorageDB:
         for storage_id, items in self.items.items():
             for i, item in enumerate(items):
                 if item.id == item_id:
-                    # Если меняем хранилище
                     if update_data.storage_id and update_data.storage_id != storage_id:
                         return self._move_item(item, update_data)
                     
-                    # Обновляем данные
                     old_count = item.count
                     updated_item = item.copy(update=update_data.dict(exclude_unset=True))
                     items[i] = updated_item
                     
-                    # Обновляем загрузку хранилища
                     if update_data.count:
                         storage = self.storages[storage_id]
                         storage.current_load += (update_data.count - old_count)
@@ -134,12 +129,10 @@ class StorageDB:
         if new_storage_id not in self.storages:
             raise ValueError("Новое хранилище не найдено")
         
-        # Удаляем из старого хранилища
         old_storage = self.storages[item.storage_id]
         old_storage.current_load -= item.count
         self.items[item.storage_id] = [i for i in self.items[item.storage_id] if i.id != item.id]
         
-        # Добавляем в новое хранилище
         new_item = item.copy(update=update_data.dict(exclude_unset=True))
         new_item.storage_id = new_storage_id
         
@@ -147,7 +140,6 @@ class StorageDB:
             self.items[new_storage_id] = []
         self.items[new_storage_id].append(new_item)
         
-        # Обновляем загрузку нового хранилища
         new_storage = self.storages[new_storage_id]
         new_storage.current_load += new_item.count
         
@@ -158,11 +150,9 @@ class StorageDB:
         for storage_id, items in self.items.items():
             for i, item in enumerate(items):
                 if item.id == item_id:
-                    # Обновляем загрузку хранилища
                     storage = self.storages[storage_id]
                     storage.current_load -= item.count
                     
-                    # Удаляем товар
                     self.items[storage_id].pop(i)
                     self._save()
                     return True
