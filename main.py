@@ -10,19 +10,18 @@ from FileDatabase import FileDatabase
 from TaskDB import TaskDB, Task, TaskCreate, TaskUpdate, TaskMove
 from typing import List, Optional, Dict
 from StorageDB import StorageDB, Item, Storage, ItemCreate, ItemUpdate
+from modal import PricePredictor
 
-# Database setup
+predictor = PricePredictor()
+predictor.load()
 
-
-# Initialize database
 db = FileDatabase("database.json")
 task_db = TaskDB()
 
 storage_db = StorageDB()
 # storage_db.init_storages()
 
-# JWT settings
-SECRET_KEY = "my-secret-key"  # Change this in production!
+SECRET_KEY = "my-secret-key"  
 ALGORITHM = "HS256"
 ACCESS_TOKEN_EXPIRE_MINUTES = 30
 
@@ -47,11 +46,9 @@ class LoginRequest(BaseModel):
     username: str
     password: str
 
-# Password hashing
 pwd_context = CryptContext(schemes=["bcrypt"], deprecated="auto")
 oauth2_scheme = OAuth2PasswordBearer(tokenUrl="token")
 
-# FastAPI app
 app = FastAPI()
 app.add_middleware(
     CORSMiddleware,
@@ -61,7 +58,6 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-# Helper functions
 def verify_password(plain_password: str, hashed_password: str):
     return pwd_context.verify(plain_password, hashed_password)
 
@@ -273,6 +269,55 @@ async def delete_item(item_id: str):
 @app.get("/storages", response_model=Dict[str, Storage])
 async def get_storages():
     return storage_db.storages
+
+
+class Prediction(BaseModel):
+    price: float
+    currency: str = "USD"
+    message: Optional[str] = None
+    confidence: Optional[float] = None  # Optional confidence score
+
+class PredictionInput(BaseModel):
+    farmprice: float
+    product_code: int
+    year: int
+    month: int
+    day: int
+    day_of_week: int
+
+@app.post("/predict", response_model=Prediction)
+async def predict_price(input_data: PredictionInput = Body(...)):
+    """
+    Predict retail price based on input parameters
+    
+    Returns:
+        Prediction: {
+            "price": predicted_price,
+            "currency": "USD",
+            "message": status_message,
+            "confidence": optional_confidence_score
+        }
+    """
+    try:
+        # Convert Pydantic model to dict for prediction
+        prediction = predictor.predict(input_data.dict())
+        
+        return Prediction(
+            price=round(prediction, 2),
+            currency="USD",
+            message="Prediction successful"
+        )
+        
+    except ValueError as e:
+        raise HTTPException(
+            status_code=400,
+            detail=f"Invalid input: {str(e)}"
+        )
+    except Exception as e:
+        raise HTTPException(
+            status_code=500,
+            detail=f"Prediction failed: {str(e)}"
+        )
 
 
 if __name__ == "__main__":
