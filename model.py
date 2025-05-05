@@ -20,10 +20,8 @@ class PricePredictor:
         try:
             model_path = os.path.join(self.model_dir, 'price_model.h5')
             if os.path.isdir(model_path):  
-                print('1')
                 self.model = tf.keras.models.load_model(model_path)
             else: 
-                print('2')
                 self.model = load_model(model_path)
             
             self.scaler = joblib.load(os.path.join(self.model_dir, 'scaler.pkl'))

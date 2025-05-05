@@ -20,6 +20,9 @@ class FileDatabase:
         with open(self.file_path, 'w', encoding='utf-8') as f:
             json.dump(self.data, f, indent=2, ensure_ascii=False)
 
+    def get_all_users(self):
+        return {'users': list(self.data["users"].keys())}
+
     def get_user(self, username: str) -> Optional[Dict]:
         return self.data["users"].get(username)
 

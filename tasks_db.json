@@ -2,38 +2,6 @@
   "todo": {
     "vadim": [
       {
-        "id": "3558fa4f-50e9-4a08-976a-99e1561bb91f",
-        "title": "hello",
-        "description": "",
-        "assigned_to": "vadim",
-        "created_at": "2025-03-31 22:37:13.689014",
-        "status": "todo"
-      },
-      {
-        "id": "0a100953-e580-4434-bae9-25cefa4c2f93",
-        "title": "test1",
-        "description": "test2",
-        "assigned_to": "vadim",
-        "created_at": "2025-04-02 18:43:11.886637",
-        "status": "todo"
-      },
-      {
-        "id": "5bbcd39a-ee1f-4009-b8d0-250b2d97b1b5",
-        "title": "test1",
-        "description": "test2",
-        "assigned_to": "vadim",
-        "created_at": "2025-04-02 18:45:12.543638",
-        "status": "todo"
-      },
-      {
-        "id": "692497dc-5774-4e88-bcfe-91ec676e9822",
-        "title": "test1",
-        "description": "test2",
-        "assigned_to": "vadim",
-        "created_at": "2025-04-02 18:46:30.163844",
-        "status": "todo"
-      },
-      {
         "id": "d5537af4-b49c-42c8-be0d-65ebfe9a5039",
         "title": "\u041d\u0435\u043e\u0431\u0445\u043e\u0434\u0438\u043c\u043e \u0437\u0430\u043a\u0443\u043f\u0438\u0442\u044c \u041a\u0430\u0440\u0442\u043e\u0444\u0435\u043b\u044c",
         "description": "",
@@ -41,12 +9,40 @@
         "created_at": "2025-04-04 02:44:34.747844",
         "status": "todo"
       }
+    ],
+    "sasha": [
+      {
+        "id": "6e5b53f0-9b3e-44b6-bdb8-3fea2e2121f5",
+        "title": "\u041d\u0435\u043e\u0431\u0445\u043e\u0434\u0438\u043c\u043e \u0437\u0430\u043a\u0443\u043f\u0438\u0442\u044c \u041a\u0430\u0440\u0442\u043e\u0444\u0435\u043b\u044c",
+        "description": "",
+        "assigned_to": "sasha",
+        "created_at": "2025-04-04 23:28:13.601362",
+        "status": "todo"
+      }
     ]
   },
   "in_progress": {
-    "vadim": []
+    "vadim": [
+      {
+        "id": "c494e810-defa-4f04-8787-399accc541b9",
+        "title": "\u041d\u0435\u043e\u0431\u0445\u043e\u0434\u0438\u043c\u043e \u0437\u0430\u043a\u0443\u043f\u0438\u0442\u044c \u041a\u0430\u0440\u0442\u043e\u0444\u0435\u043b\u044c",
+        "description": "",
+        "assigned_to": "vadim",
+        "created_at": "2025-04-04 23:02:57.305763",
+        "status": "in_progress"
+      }
+    ]
   },
   "done": {
-    "vadim": []
+    "vadim": [
+      {
+        "id": "37db939f-04c7-4b54-996e-f6b315492f76",
+        "title": "\u041d\u0435\u043e\u0431\u0445\u043e\u0434\u0438\u043c\u043e \u0437\u0430\u043a\u0443\u043f\u0438\u0442\u044c \u0412\u0438\u043d\u043e\u0433\u0440\u0430\u0434 \u0424\u043b\u0435\u0439\u043c",
+        "description": "",
+        "assigned_to": "vadim",
+        "created_at": "2025-04-06 14:47:41.826328",
+        "status": "done"
+      }
+    ]
   }
 }

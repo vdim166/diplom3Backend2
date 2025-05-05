@@ -10,7 +10,8 @@ from FileDatabase import FileDatabase
 from TaskDB import TaskDB, Task, TaskCreate, TaskUpdate, TaskMove
 from typing import List, Optional, Dict
 from StorageDB import StorageDB, Item, Storage, ItemCreate, ItemUpdate
-from modal import PricePredictor
+from model import PricePredictor
+
 
 predictor = PricePredictor()
 predictor.load()
@@ -19,7 +20,7 @@ db = FileDatabase("database.json")
 task_db = TaskDB()
 
 storage_db = StorageDB()
-# storage_db.init_storages()
+storage_db.init_storages()
 
 SECRET_KEY = "my-secret-key"  
 ALGORITHM = "HS256"
@@ -113,6 +114,8 @@ async def get_current_active_user(current_user: User = Depends(get_current_user)
     return current_user
 
 # Routes
+
+
 @app.post("/token", response_model=Token)
 async def login_for_access_token(login_data: LoginRequest = Body(...)):
     user = authenticate_user(login_data.username, login_data.password)
@@ -148,6 +151,14 @@ async def register_user(
     }
     db.create_user(user_data)
     return {"message": "User registered successfully"}
+
+
+class UserList(BaseModel):
+    users: List[str] 
+@app.get('/users', response_model=UserList)
+async def read_all_users():
+    return db.get_all_users()
+
 
 @app.get("/users/me", response_model=User)
 async def read_users_me(current_user: User = Depends(get_current_active_user)):
