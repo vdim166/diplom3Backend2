@@ -5,56 +5,16 @@
       "email": null,
       "full_name": null,
       "hashed_password": "$2b$12$hlwriAWVhTICRAdRGzSNtucj758YCp3wjiqyXldglZL3bE1zzrbTK",
-      "disabled": false
+      "disabled": false,
+      "is_manager": true
     },
     "sasha": {
       "username": "",
       "email": null,
       "full_name": null,
       "hashed_password": "$2b$12$e86uX45Pze7aty9uqmwgh.gL3GkxCf2yHjOfP6BqyHTnwo0kcUooe",
-      "disabled": false
-    },
-    "vadim123": {
-      "username": "vadim123",
-      "email": null,
-      "full_name": null,
-      "hashed_password": "$2b$12$Slw4502lIIkzT4o1cCDan.FsJvpzBfiVCH7TKZ01YgxJ9RR5aLEHu",
-      "disabled": false
-    },
-    "vadim321": {
-      "username": "vadim321",
-      "email": null,
-      "full_name": null,
-      "hashed_password": "$2b$12$pVY.Ef6JOdcI1gFOBVuKleV/2lbWnADjrH5R3/Lvg2E0qpa2N.7re",
-      "disabled": false
-    },
-    "vadim456": {
-      "username": "vadim456",
-      "email": null,
-      "full_name": null,
-      "hashed_password": "$2b$12$G0NRjthdkDdaxytQyVLkM.NsNDhdMW98fIwgQBya6h9zXSqR9EKUi",
-      "disabled": false
-    },
-    "": {
-      "username": "",
-      "email": null,
-      "full_name": null,
-      "hashed_password": "$2b$12$knJ0C8z1egm0dgTOjVnsu.pzrj2lM5QDtTvOFmjpw7ZBg3As/ioJe",
-      "disabled": false
-    },
-    "vadim678": {
-      "username": "vadim678",
-      "email": null,
-      "full_name": null,
-      "hashed_password": "$2b$12$NBOwskjIGjJMWCKf.uAuR.hyOrO0GwA02rTLsa27S7euoshehYrcG",
-      "disabled": false
-    },
-    "sasha123": {
-      "username": "sasha123",
-      "email": null,
-      "full_name": null,
-      "hashed_password": "$2b$12$Y5Urqz7o51Kd0/R/2cBynezWxYVzpKt1gtBbIws/bdaeog/eF8SmC",
-      "disabled": false
+      "disabled": false,
+      "is_manager": false
     }
   }
 }

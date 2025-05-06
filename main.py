@@ -32,6 +32,7 @@ class User(BaseModel):
     email: Optional[str] = None
     full_name: Optional[str] = None
     disabled: Optional[bool] = None
+    is_manager: Optional[bool] = None
 
 class UserInDB(User):
     hashed_password: str
@@ -148,6 +149,7 @@ async def register_user(
         "full_name": full_name,
         "hashed_password": hashed_password,
         "disabled": False,
+        "is_manager": False
     }
     db.create_user(user_data)
     return {"message": "User registered successfully"}
@@ -189,6 +191,8 @@ async def validate_token(authorization: str = Header(...)):
             )
             
         user = get_user(username)
+
+        print('user', user)
         if not user:
             raise HTTPException(
                 status_code=status.HTTP_401_UNAUTHORIZED,
@@ -199,8 +203,8 @@ async def validate_token(authorization: str = Header(...)):
             "is_valid": True,
             "user": {
                 "username": user.username,
-                "email": user.email,
-                "full_name": user.full_name
+                "is_manager": user.is_manager
+
             }
         }
         
