@@ -190,6 +190,222 @@
         "created_at": "2025-05-07 16:03:03.658665",
         "status": "todo",
         "query": null
+      },
+      {
+        "id": "72aaf116-a112-4192-85e2-b7fc51d80606",
+        "title": "\u0421\u0440\u043e\u0447\u043d\u043e \u043f\u0440\u043e\u0434\u0430\u0442\u044c \u0421\u0430\u043b\u0430\u0442 \u0420\u043e\u043c\u0430\u043d\u043e",
+        "description": "",
+        "assigned_to": "vadim",
+        "created_at": "2025-05-07 22:54:53.898034",
+        "status": "todo",
+        "query": "{\"action\":\"sell\",\"product\":\"Romaine Lettuce\",\"count\":20,\"storage\":\"storage_1\"}"
+      },
+      {
+        "id": "42384f01-f12d-41ee-b8b4-8c92cf7eee36",
+        "title": "\u0421\u0440\u043e\u0447\u043d\u043e \u043f\u0440\u043e\u0434\u0430\u0442\u044c \u041a\u0440\u0430\u0441\u043d\u043e\u043b\u0438\u0441\u0442\u043d\u044b\u0439 \u0441\u0430\u043b\u0430\u0442",
+        "description": "",
+        "assigned_to": "vadim",
+        "created_at": "2025-05-07 22:54:53.904577",
+        "status": "todo",
+        "query": "{\"action\":\"sell\",\"product\":\"Red Leaf Lettuce\",\"count\":20,\"storage\":\"storage_2\"}"
+      },
+      {
+        "id": "7215acfb-4fd7-47db-bde2-0da71fc0867d",
+        "title": "\u0421\u0440\u043e\u0447\u043d\u043e \u043f\u0440\u043e\u0434\u0430\u0442\u044c \u0421\u0430\u043b\u0430\u0442 \u0410\u0439\u0441\u0431\u0435\u0440\u0433",
+        "description": "",
+        "assigned_to": "vadim",
+        "created_at": "2025-05-07 22:54:53.910695",
+        "status": "todo",
+        "query": "{\"action\":\"sell\",\"product\":\"Iceberg Lettuce\",\"count\":25,\"storage\":\"storage_3\"}"
+      },
+      {
+        "id": "75263bcd-63e6-46c4-ba9e-d92f8878659e",
+        "title": "\u0421\u0440\u043e\u0447\u043d\u043e \u043f\u0440\u043e\u0434\u0430\u0442\u044c \u0417\u0435\u043b\u0435\u043d\u043e\u043b\u0438\u0441\u0442\u043d\u044b\u0439 \u0441\u0430\u043b\u0430\u0442",
+        "description": "",
+        "assigned_to": "vadim",
+        "created_at": "2025-05-07 22:54:53.916695",
+        "status": "todo",
+        "query": "{\"action\":\"sell\",\"product\":\"Green Leaf Lettuce\",\"count\":20,\"storage\":\"storage_4\"}"
+      },
+      {
+        "id": "6bab0aca-94fc-429a-98b9-e6958b634050",
+        "title": "\u0421\u0440\u043e\u0447\u043d\u043e \u043f\u0440\u043e\u0434\u0430\u0442\u044c \u041a\u043b\u0443\u0431\u043d\u0438\u043a\u0430",
+        "description": "",
+        "assigned_to": "vadim",
+        "created_at": "2025-05-07 22:54:53.922809",
+        "status": "todo",
+        "query": "{\"action\":\"sell\",\"product\":\"Strawberries\",\"count\":30,\"storage\":\"storage_12\"}"
+      },
+      {
+        "id": "8751ea1d-6545-45dd-b456-eb1084caf3a5",
+        "title": "\u0421\u0440\u043e\u0447\u043d\u043e \u043f\u0440\u043e\u0434\u0430\u0442\u044c \u0421\u0430\u043b\u0430\u0442 \u0420\u043e\u043c\u0430\u043d\u043e",
+        "description": "",
+        "assigned_to": "vadim",
+        "created_at": "2025-05-07 22:54:53.926809",
+        "status": "todo",
+        "query": "{\"action\":\"sell\",\"product\":\"Romaine Lettuce\",\"count\":15,\"storage\":\"storage_12\"}"
+      },
+      {
+        "id": "27e0aa54-1acf-476f-90e1-51bfc494216f",
+        "title": "\u0421\u0440\u043e\u0447\u043d\u043e \u043f\u0440\u043e\u0434\u0430\u0442\u044c \u041a\u0440\u0430\u0441\u043d\u043e\u043b\u0438\u0441\u0442\u043d\u044b\u0439 \u0441\u0430\u043b\u0430\u0442",
+        "description": "",
+        "assigned_to": "vadim",
+        "created_at": "2025-05-07 22:54:53.933846",
+        "status": "todo",
+        "query": "{\"action\":\"sell\",\"product\":\"Red Leaf Lettuce\",\"count\":18,\"storage\":\"storage_13\"}"
+      },
+      {
+        "id": "bb7b2e7c-4ef1-4ebd-b880-69c5844e5bc0",
+        "title": "\u0421\u0440\u043e\u0447\u043d\u043e \u043f\u0440\u043e\u0434\u0430\u0442\u044c \u0410\u043f\u0435\u043b\u044c\u0441\u0438\u043d\u044b",
+        "description": "",
+        "assigned_to": "vadim",
+        "created_at": "2025-05-07 22:54:53.939353",
+        "status": "todo",
+        "query": "{\"action\":\"sell\",\"product\":\"Oranges\",\"count\":50,\"storage\":\"storage_14\"}"
+      },
+      {
+        "id": "e38a898d-febc-41e9-9a53-1f3b6dc39f14",
+        "title": "\u0421\u0440\u043e\u0447\u043d\u043e \u043f\u0440\u043e\u0434\u0430\u0442\u044c \u0421\u0430\u043b\u0430\u0442 \u0410\u0439\u0441\u0431\u0435\u0440\u0433",
+        "description": "",
+        "assigned_to": "vadim",
+        "created_at": "2025-05-07 22:54:53.945353",
+        "status": "todo",
+        "query": "{\"action\":\"sell\",\"product\":\"Iceberg Lettuce\",\"count\":20,\"storage\":\"storage_14\"}"
+      },
+      {
+        "id": "d47505ee-1121-44be-94da-26a0ddaeb5dd",
+        "title": "\u0421\u0440\u043e\u0447\u043d\u043e \u043f\u0440\u043e\u0434\u0430\u0442\u044c \u0417\u0435\u043b\u0435\u043d\u043e\u043b\u0438\u0441\u0442\u043d\u044b\u0439 \u0441\u0430\u043b\u0430\u0442",
+        "description": "",
+        "assigned_to": "vadim",
+        "created_at": "2025-05-07 22:54:53.950859",
+        "status": "todo",
+        "query": "{\"action\":\"sell\",\"product\":\"Green Leaf Lettuce\",\"count\":18,\"storage\":\"storage_15\"}"
+      },
+      {
+        "id": "ae3da11b-e5e1-4195-ad3b-8a03f4573842",
+        "title": "\u0421\u0440\u043e\u0447\u043d\u043e \u043f\u0440\u043e\u0434\u0430\u0442\u044c \u0421\u0435\u043b\u044c\u0434\u0435\u0440\u0435\u0439",
+        "description": "",
+        "assigned_to": "vadim",
+        "created_at": "2025-05-07 22:54:53.956743",
+        "status": "todo",
+        "query": "{\"action\":\"sell\",\"product\":\"Celery\",\"count\":25,\"storage\":\"storage_15\"}"
+      },
+      {
+        "id": "b1fd9871-2d94-4eae-ba70-32959a74f4a7",
+        "title": "\u0421\u0440\u043e\u0447\u043d\u043e \u043f\u0440\u043e\u0434\u0430\u0442\u044c \u0426\u0432\u0435\u0442\u043d\u0430\u044f \u043a\u0430\u043f\u0443\u0441\u0442\u0430",
+        "description": "",
+        "assigned_to": "vadim",
+        "created_at": "2025-05-07 22:54:53.962746",
+        "status": "todo",
+        "query": "{\"action\":\"sell\",\"product\":\"Cauliflower\",\"count\":12,\"storage\":\"storage_16\"}"
+      },
+      {
+        "id": "3f96699b-72db-494f-bf05-5a602d6cd8dc",
+        "title": "\u0421\u0440\u043e\u0447\u043d\u043e \u043f\u0440\u043e\u0434\u0430\u0442\u044c \u0421\u0430\u043b\u0430\u0442 \u0420\u043e\u043c\u0430\u043d\u043e",
+        "description": "",
+        "assigned_to": "vadim",
+        "created_at": "2025-05-07 22:56:48.681374",
+        "status": "todo",
+        "query": "{\"action\":\"sell\",\"product\":\"Romaine Lettuce\",\"count\":20,\"storage\":\"storage_1\"}"
+      },
+      {
+        "id": "7d396913-d875-4a8d-9455-8a66e0704298",
+        "title": "\u0421\u0440\u043e\u0447\u043d\u043e \u043f\u0440\u043e\u0434\u0430\u0442\u044c \u041a\u0440\u0430\u0441\u043d\u043e\u043b\u0438\u0441\u0442\u043d\u044b\u0439 \u0441\u0430\u043b\u0430\u0442",
+        "description": "",
+        "assigned_to": "vadim",
+        "created_at": "2025-05-07 22:56:48.686878",
+        "status": "todo",
+        "query": "{\"action\":\"sell\",\"product\":\"Red Leaf Lettuce\",\"count\":20,\"storage\":\"storage_2\"}"
+      },
+      {
+        "id": "32988da9-3ad5-4701-b5fd-e77d3f5f1ab6",
+        "title": "\u0421\u0440\u043e\u0447\u043d\u043e \u043f\u0440\u043e\u0434\u0430\u0442\u044c \u0421\u0430\u043b\u0430\u0442 \u0410\u0439\u0441\u0431\u0435\u0440\u0433",
+        "description": "",
+        "assigned_to": "vadim",
+        "created_at": "2025-05-07 22:56:48.693384",
+        "status": "todo",
+        "query": "{\"action\":\"sell\",\"product\":\"Iceberg Lettuce\",\"count\":25,\"storage\":\"storage_3\"}"
+      },
+      {
+        "id": "c85e468a-f23f-4d8c-b6ff-0ce39e07f125",
+        "title": "\u0421\u0440\u043e\u0447\u043d\u043e \u043f\u0440\u043e\u0434\u0430\u0442\u044c \u0417\u0435\u043b\u0435\u043d\u043e\u043b\u0438\u0441\u0442\u043d\u044b\u0439 \u0441\u0430\u043b\u0430\u0442",
+        "description": "",
+        "assigned_to": "vadim",
+        "created_at": "2025-05-07 22:56:48.699546",
+        "status": "todo",
+        "query": "{\"action\":\"sell\",\"product\":\"Green Leaf Lettuce\",\"count\":20,\"storage\":\"storage_4\"}"
+      },
+      {
+        "id": "17008939-183e-4b0d-8e58-2cc22fdccfd4",
+        "title": "\u0421\u0440\u043e\u0447\u043d\u043e \u043f\u0440\u043e\u0434\u0430\u0442\u044c \u041a\u043b\u0443\u0431\u043d\u0438\u043a\u0430",
+        "description": "",
+        "assigned_to": "vadim",
+        "created_at": "2025-05-07 22:56:48.704605",
+        "status": "todo",
+        "query": "{\"action\":\"sell\",\"product\":\"Strawberries\",\"count\":30,\"storage\":\"storage_12\"}"
+      },
+      {
+        "id": "a27a5b5b-f2ea-43b6-bbaa-99eeee2b0381",
+        "title": "\u0421\u0440\u043e\u0447\u043d\u043e \u043f\u0440\u043e\u0434\u0430\u0442\u044c \u0421\u0430\u043b\u0430\u0442 \u0420\u043e\u043c\u0430\u043d\u043e",
+        "description": "",
+        "assigned_to": "vadim",
+        "created_at": "2025-05-07 22:56:48.710604",
+        "status": "todo",
+        "query": "{\"action\":\"sell\",\"product\":\"Romaine Lettuce\",\"count\":15,\"storage\":\"storage_12\"}"
+      },
+      {
+        "id": "a50adf19-76c7-43f9-a9a4-12eeaf2ac759",
+        "title": "\u0421\u0440\u043e\u0447\u043d\u043e \u043f\u0440\u043e\u0434\u0430\u0442\u044c \u041a\u0440\u0430\u0441\u043d\u043e\u043b\u0438\u0441\u0442\u043d\u044b\u0439 \u0441\u0430\u043b\u0430\u0442",
+        "description": "",
+        "assigned_to": "vadim",
+        "created_at": "2025-05-07 22:56:48.717109",
+        "status": "todo",
+        "query": "{\"action\":\"sell\",\"product\":\"Red Leaf Lettuce\",\"count\":18,\"storage\":\"storage_13\"}"
+      },
+      {
+        "id": "02c8ab94-7716-47ea-ae28-f1da99f31d1c",
+        "title": "\u0421\u0440\u043e\u0447\u043d\u043e \u043f\u0440\u043e\u0434\u0430\u0442\u044c \u0410\u043f\u0435\u043b\u044c\u0441\u0438\u043d\u044b",
+        "description": "",
+        "assigned_to": "vadim",
+        "created_at": "2025-05-07 22:56:48.722110",
+        "status": "todo",
+        "query": "{\"action\":\"sell\",\"product\":\"Oranges\",\"count\":50,\"storage\":\"storage_14\"}"
+      },
+      {
+        "id": "e79ca374-a7c2-48fb-ba53-7abd501cfe43",
+        "title": "\u0421\u0440\u043e\u0447\u043d\u043e \u043f\u0440\u043e\u0434\u0430\u0442\u044c \u0421\u0430\u043b\u0430\u0442 \u0410\u0439\u0441\u0431\u0435\u0440\u0433",
+        "description": "",
+        "assigned_to": "vadim",
+        "created_at": "2025-05-07 22:56:48.729119",
+        "status": "todo",
+        "query": "{\"action\":\"sell\",\"product\":\"Iceberg Lettuce\",\"count\":20,\"storage\":\"storage_14\"}"
+      },
+      {
+        "id": "5ae54515-50a5-4ea9-ba84-d8438249513d",
+        "title": "\u0421\u0440\u043e\u0447\u043d\u043e \u043f\u0440\u043e\u0434\u0430\u0442\u044c \u0417\u0435\u043b\u0435\u043d\u043e\u043b\u0438\u0441\u0442\u043d\u044b\u0439 \u0441\u0430\u043b\u0430\u0442",
+        "description": "",
+        "assigned_to": "vadim",
+        "created_at": "2025-05-07 22:56:48.736138",
+        "status": "todo",
+        "query": "{\"action\":\"sell\",\"product\":\"Green Leaf Lettuce\",\"count\":18,\"storage\":\"storage_15\"}"
+      },
+      {
+        "id": "c82b76e1-0f9d-4e05-ad7c-335a336612ba",
+        "title": "\u0421\u0440\u043e\u0447\u043d\u043e \u043f\u0440\u043e\u0434\u0430\u0442\u044c \u0421\u0435\u043b\u044c\u0434\u0435\u0440\u0435\u0439",
+        "description": "",
+        "assigned_to": "vadim",
+        "created_at": "2025-05-07 22:56:48.743207",
+        "status": "todo",
+        "query": "{\"action\":\"sell\",\"product\":\"Celery\",\"count\":25,\"storage\":\"storage_15\"}"
+      },
+      {
+        "id": "dd98c879-02e3-421c-9851-26838e0430ae",
+        "title": "\u0421\u0440\u043e\u0447\u043d\u043e \u043f\u0440\u043e\u0434\u0430\u0442\u044c \u0426\u0432\u0435\u0442\u043d\u0430\u044f \u043a\u0430\u043f\u0443\u0441\u0442\u0430",
+        "description": "",
+        "assigned_to": "vadim",
+        "created_at": "2025-05-07 22:56:48.750207",
+        "status": "todo",
+        "query": "{\"action\":\"sell\",\"product\":\"Cauliflower\",\"count\":12,\"storage\":\"storage_16\"}"
       }
     ]
   },

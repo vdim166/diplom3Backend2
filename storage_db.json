@@ -176,21 +176,24 @@
         "name": "Romaine Lettuce",
         "count": 20,
         "storage_id": "storage_1",
-        "category": "\u041e\u0432\u043e\u0449\u0438"
+        "category": "\u041e\u0432\u043e\u0449\u0438",
+        "expiration_date": "2025-05-15T00:00:00Z"
       },
       {
         "id": "item_4",
         "name": "Potatoes",
         "count": 20,
         "storage_id": "storage_1",
-        "category": "\u041e\u0432\u043e\u0449\u0438"
+        "category": "\u041e\u0432\u043e\u0449\u0438",
+        "expiration_date": "2025-06-01T00:00:00Z"
       },
       {
         "id": "0cc774cb-7724-43f1-aeaa-cbe7f9ea1f50",
         "name": "Oranges",
         "count": 5,
         "storage_id": "storage_1",
-        "category": null
+        "category": null,
+        "expiration_date": "2025-05-20T00:00:00Z"
       }
     ],
     "storage_2": [
@@ -199,14 +202,16 @@
         "name": "Red Leaf Lettuce",
         "count": 20,
         "storage_id": "storage_2",
-        "category": "\u041e\u0432\u043e\u0449\u0438"
+        "category": "\u041e\u0432\u043e\u0449\u0438",
+        "expiration_date": "2025-05-14T00:00:00Z"
       },
       {
         "id": "item_4",
         "name": "Potatoes",
         "count": 25,
         "storage_id": "storage_2",
-        "category": "\u041e\u0432\u043e\u0449\u0438"
+        "category": "\u041e\u0432\u043e\u0449\u0438",
+        "expiration_date": "2025-06-03T00:00:00Z"
       }
     ],
     "storage_3": [
@@ -215,14 +220,16 @@
         "name": "Oranges",
         "count": 60,
         "storage_id": "storage_3",
-        "category": "\u0424\u0440\u0443\u043a\u0442\u044b"
+        "category": "\u0424\u0440\u0443\u043a\u0442\u044b",
+        "expiration_date": "2025-05-22T00:00:00Z"
       },
       {
         "id": "item_6",
         "name": "Iceberg Lettuce",
         "count": 25,
         "storage_id": "storage_3",
-        "category": "\u041e\u0432\u043e\u0449\u0438"
+        "category": "\u041e\u0432\u043e\u0449\u0438",
+        "expiration_date": "2025-05-16T00:00:00Z"
       }
     ],
     "storage_4": [
@@ -231,14 +238,16 @@
         "name": "Green Leaf Lettuce",
         "count": 20,
         "storage_id": "storage_4",
-        "category": "\u041e\u0432\u043e\u0449\u0438"
+        "category": "\u041e\u0432\u043e\u0449\u0438",
+        "expiration_date": "2025-05-17T00:00:00Z"
       },
       {
         "id": "item_8",
         "name": "Celery",
         "count": 30,
         "storage_id": "storage_4",
-        "category": "\u041e\u0432\u043e\u0449\u0438"
+        "category": "\u041e\u0432\u043e\u0449\u0438",
+        "expiration_date": "2025-05-25T00:00:00Z"
       }
     ],
     "storage_5": [
@@ -247,14 +256,16 @@
         "name": "Cauliflower",
         "count": 15,
         "storage_id": "storage_5",
-        "category": "\u041e\u0432\u043e\u0449\u0438"
+        "category": "\u041e\u0432\u043e\u0449\u0438",
+        "expiration_date": "2025-05-19T00:00:00Z"
       },
       {
         "id": "item_10",
         "name": "Carrots",
         "count": 50,
         "storage_id": "storage_5",
-        "category": "\u041e\u0432\u043e\u0449\u0438"
+        "category": "\u041e\u0432\u043e\u0449\u0438",
+        "expiration_date": "2025-05-28T00:00:00Z"
       }
     ],
     "storage_6": [
@@ -263,14 +274,16 @@
         "name": "Cantaloupe",
         "count": 12,
         "storage_id": "storage_6",
-        "category": "\u0424\u0440\u0443\u043a\u0442\u044b"
+        "category": "\u0424\u0440\u0443\u043a\u0442\u044b",
+        "expiration_date": "2025-05-18T00:00:00Z"
       },
       {
         "id": "item_12",
         "name": "Broccoli Crowns",
         "count": 18,
         "storage_id": "storage_6",
-        "category": "\u041e\u0432\u043e\u0449\u0438"
+        "category": "\u041e\u0432\u043e\u0449\u0438",
+        "expiration_date": "2025-05-21T00:00:00Z"
       }
     ],
     "storage_7": [
@@ -279,14 +292,16 @@
         "name": "Avocados",
         "count": 25,
         "storage_id": "storage_7",
-        "category": "\u0424\u0440\u0443\u043a\u0442\u044b"
+        "category": "\u0424\u0440\u0443\u043a\u0442\u044b",
+        "expiration_date": "2025-05-23T00:00:00Z"
       },
       {
         "id": "item_14",
         "name": "Broccoli Bunches",
         "count": 20,
         "storage_id": "storage_7",
-        "category": "\u041e\u0432\u043e\u0449\u0438"
+        "category": "\u041e\u0432\u043e\u0449\u0438",
+        "expiration_date": "2025-05-24T00:00:00Z"
       }
     ],
     "storage_8": [
@@ -295,14 +310,16 @@
         "name": "Asparagus",
         "count": 15,
         "storage_id": "storage_8",
-        "category": "\u041e\u0432\u043e\u0449\u0438"
+        "category": "\u041e\u0432\u043e\u0449\u0438",
+        "expiration_date": "2025-05-26T00:00:00Z"
       },
       {
         "id": "item_16",
         "name": "Flame Grapes",
         "count": 28,
         "storage_id": "storage_8",
-        "category": "\u0424\u0440\u0443\u043a\u0442\u044b"
+        "category": "\u0424\u0440\u0443\u043a\u0442\u044b",
+        "expiration_date": "2025-05-29T00:00:00Z"
       }
     ],
     "storage_9": [
@@ -311,14 +328,16 @@
         "name": "Thompson Grapes",
         "count": 30,
         "storage_id": "storage_9",
-        "category": "\u0424\u0440\u0443\u043a\u0442\u044b"
+        "category": "\u0424\u0440\u0443\u043a\u0442\u044b",
+        "expiration_date": "2025-05-27T00:00:00Z"
       },
       {
         "id": "item_18",
         "name": "Honeydews",
         "count": 10,
         "storage_id": "storage_9",
-        "category": "\u0424\u0440\u0443\u043a\u0442\u044b"
+        "category": "\u0424\u0440\u0443\u043a\u0442\u044b",
+        "expiration_date": "2025-05-30T00:00:00Z"
       }
     ],
     "storage_10": [
@@ -327,14 +346,16 @@
         "name": "Tomatoes",
         "count": 40,
         "storage_id": "storage_10",
-        "category": "\u041e\u0432\u043e\u0449\u0438"
+        "category": "\u041e\u0432\u043e\u0449\u0438",
+        "expiration_date": "2025-05-31T00:00:00Z"
       },
       {
         "id": "item_20",
         "name": "Plums",
         "count": 22,
         "storage_id": "storage_10",
-        "category": "\u0424\u0440\u0443\u043a\u0442\u044b"
+        "category": "\u0424\u0440\u0443\u043a\u0442\u044b",
+        "expiration_date": "2025-06-02T00:00:00Z"
       }
     ],
     "storage_11": [
@@ -343,14 +364,16 @@
         "name": "Peaches",
         "count": 25,
         "storage_id": "storage_11",
-        "category": "\u0424\u0440\u0443\u043a\u0442\u044b"
+        "category": "\u0424\u0440\u0443\u043a\u0442\u044b",
+        "expiration_date": "2025-06-04T00:00:00Z"
       },
       {
         "id": "item_22",
         "name": "Nectarines",
         "count": 20,
         "storage_id": "storage_11",
-        "category": "\u0424\u0440\u0443\u043a\u0442\u044b"
+        "category": "\u0424\u0440\u0443\u043a\u0442\u044b",
+        "expiration_date": "2025-06-05T00:00:00Z"
       }
     ],
     "storage_12": [
@@ -359,14 +382,16 @@
         "name": "Strawberries",
         "count": 30,
         "storage_id": "storage_12",
-        "category": "\u0424\u0440\u0443\u043a\u0442\u044b"
+        "category": "\u0424\u0440\u0443\u043a\u0442\u044b",
+        "expiration_date": "2025-05-12T00:00:00Z"
       },
       {
         "id": "item_2",
         "name": "Romaine Lettuce",
         "count": 15,
         "storage_id": "storage_12",
-        "category": "\u041e\u0432\u043e\u0449\u0438"
+        "category": "\u041e\u0432\u043e\u0449\u0438",
+        "expiration_date": "2025-05-13T00:00:00Z"
       }
     ],
     "storage_13": [
@@ -375,14 +400,16 @@
         "name": "Red Leaf Lettuce",
         "count": 18,
         "storage_id": "storage_13",
-        "category": "\u041e\u0432\u043e\u0449\u0438"
+        "category": "\u041e\u0432\u043e\u0449\u0438",
+        "expiration_date": "2025-05-11T00:00:00Z"
       },
       {
         "id": "item_4",
         "name": "Potatoes",
         "count": 35,
         "storage_id": "storage_13",
-        "category": "\u041e\u0432\u043e\u0449\u0438"
+        "category": "\u041e\u0432\u043e\u0449\u0438",
+        "expiration_date": "2025-06-06T00:00:00Z"
       }
     ],
     "storage_14": [
@@ -391,14 +418,16 @@
         "name": "Oranges",
         "count": 50,
         "storage_id": "storage_14",
-        "category": "\u0424\u0440\u0443\u043a\u0442\u044b"
+        "category": "\u0424\u0440\u0443\u043a\u0442\u044b",
+        "expiration_date": "2025-05-10T00:00:00Z"
       },
       {
         "id": "item_6",
         "name": "Iceberg Lettuce",
         "count": 20,
         "storage_id": "storage_14",
-        "category": "\u041e\u0432\u043e\u0449\u0438"
+        "category": "\u041e\u0432\u043e\u0449\u0438",
+        "expiration_date": "2025-05-09T00:00:00Z"
       }
     ],
     "storage_15": [
@@ -407,14 +436,16 @@
         "name": "Green Leaf Lettuce",
         "count": 18,
         "storage_id": "storage_15",
-        "category": "\u041e\u0432\u043e\u0449\u0438"
+        "category": "\u041e\u0432\u043e\u0449\u0438",
+        "expiration_date": "2025-05-08T00:00:00Z"
       },
       {
         "id": "item_8",
         "name": "Celery",
         "count": 25,
         "storage_id": "storage_15",
-        "category": "\u041e\u0432\u043e\u0449\u0438"
+        "category": "\u041e\u0432\u043e\u0449\u0438",
+        "expiration_date": "2025-05-07T00:00:00Z"
       }
     ],
     "storage_16": [
@@ -423,14 +454,16 @@
         "name": "Cauliflower",
         "count": 12,
         "storage_id": "storage_16",
-        "category": "\u041e\u0432\u043e\u0449\u0438"
+        "category": "\u041e\u0432\u043e\u0449\u0438",
+        "expiration_date": "2025-05-16T00:00:00Z"
       },
       {
         "id": "item_10",
         "name": "Carrots",
         "count": 40,
         "storage_id": "storage_16",
-        "category": "\u041e\u0432\u043e\u0449\u0438"
+        "category": "\u041e\u0432\u043e\u0449\u0438",
+        "expiration_date": "2025-05-18T00:00:00Z"
       }
     ],
     "storage_17": [
@@ -439,14 +472,16 @@
         "name": "Cantaloupe",
         "count": 8,
         "storage_id": "storage_17",
-        "category": "\u0424\u0440\u0443\u043a\u0442\u044b"
+        "category": "\u0424\u0440\u0443\u043a\u0442\u044b",
+        "expiration_date": "2025-05-19T00:00:00Z"
       },
       {
         "id": "item_12",
         "name": "Broccoli Crowns",
         "count": 15,
         "storage_id": "storage_17",
-        "category": "\u041e\u0432\u043e\u0449\u0438"
+        "category": "\u041e\u0432\u043e\u0449\u0438",
+        "expiration_date": "2025-05-20T00:00:00Z"
       }
     ],
     "storage_18": [
@@ -455,14 +490,16 @@
         "name": "Avocados",
         "count": 20,
         "storage_id": "storage_18",
-        "category": "\u0424\u0440\u0443\u043a\u0442\u044b"
+        "category": "\u0424\u0440\u0443\u043a\u0442\u044b",
+        "expiration_date": "2025-05-21T00:00:00Z"
       },
       {
         "id": "item_14",
         "name": "Broccoli Bunches",
         "count": 18,
         "storage_id": "storage_18",
-        "category": "\u041e\u0432\u043e\u0449\u0438"
+        "category": "\u041e\u0432\u043e\u0449\u0438",
+        "expiration_date": "2025-05-22T00:00:00Z"
       }
     ],
     "storage_19": [
@@ -471,14 +508,16 @@
         "name": "Asparagus",
         "count": 12,
         "storage_id": "storage_19",
-        "category": "\u041e\u0432\u043e\u0449\u0438"
+        "category": "\u041e\u0432\u043e\u0449\u0438",
+        "expiration_date": "2025-05-23T00:00:00Z"
       },
       {
         "id": "item_16",
         "name": "Flame Grapes",
         "count": 25,
         "storage_id": "storage_19",
-        "category": "\u0424\u0440\u0443\u043a\u0442\u044b"
+        "category": "\u0424\u0440\u0443\u043a\u0442\u044b",
+        "expiration_date": "2025-05-24T00:00:00Z"
       }
     ],
     "storage_20": [
@@ -487,14 +526,16 @@
         "name": "Thompson Grapes",
         "count": 28,
         "storage_id": "storage_20",
-        "category": "\u0424\u0440\u0443\u043a\u0442\u044b"
+        "category": "\u0424\u0440\u0443\u043a\u0442\u044b",
+        "expiration_date": "2025-05-25T00:00:00Z"
       },
       {
         "id": "item_18",
         "name": "Honeydews",
         "count": 8,
         "storage_id": "storage_20",
-        "category": "\u0424\u0440\u0443\u043a\u0442\u044b"
+        "category": "\u0424\u0440\u0443\u043a\u0442\u044b",
+        "expiration_date": "2025-05-26T00:00:00Z"
       }
     ],
     "storage_21": [
@@ -503,14 +544,16 @@
         "name": "Tomatoes",
         "count": 35,
         "storage_id": "storage_21",
-        "category": "\u041e\u0432\u043e\u0449\u0438"
+        "category": "\u041e\u0432\u043e\u0449\u0438",
+        "expiration_date": "2025-05-27T00:00:00Z"
       },
       {
         "id": "item_20",
         "name": "Plums",
         "count": 20,
         "storage_id": "storage_21",
-        "category": "\u0424\u0440\u0443\u043a\u0442\u044b"
+        "category": "\u0424\u0440\u0443\u043a\u0442\u044b",
+        "expiration_date": "2025-05-28T00:00:00Z"
       }
     ],
     "storage_22": [
@@ -519,14 +562,16 @@
         "name": "Peaches",
         "count": 22,
         "storage_id": "storage_22",
-        "category": "\u0424\u0440\u0443\u043a\u0442\u044b"
+        "category": "\u0424\u0440\u0443\u043a\u0442\u044b",
+        "expiration_date": "2025-05-29T00:00:00Z"
       },
       {
         "id": "item_22",
         "name": "Nectarines",
         "count": 18,
         "storage_id": "storage_22",
-        "category": "\u0424\u0440\u0443\u043a\u0442\u044b"
+        "category": "\u0424\u0440\u0443\u043a\u0442\u044b",
+        "expiration_date": "2025-05-30T00:00:00Z"
       }
     ],
     "storage_23": [
@@ -535,14 +580,16 @@
         "name": "Strawberries",
         "count": 25,
         "storage_id": "storage_23",
-        "category": "\u0424\u0440\u0443\u043a\u0442\u044b"
+        "category": "\u0424\u0440\u0443\u043a\u0442\u044b",
+        "expiration_date": "2025-05-31T00:00:00Z"
       },
       {
         "id": "item_2",
         "name": "Romaine Lettuce",
         "count": 12,
         "storage_id": "storage_23",
-        "category": "\u041e\u0432\u043e\u0449\u0438"
+        "category": "\u041e\u0432\u043e\u0449\u0438",
+        "expiration_date": "2025-06-01T00:00:00Z"
       }
     ],
     "storage_24": [
@@ -551,14 +598,16 @@
         "name": "Red Leaf Lettuce",
         "count": 15,
         "storage_id": "storage_24",
-        "category": "\u041e\u0432\u043e\u0449\u0438"
+        "category": "\u041e\u0432\u043e\u0449\u0438",
+        "expiration_date": "2025-06-02T00:00:00Z"
       },
       {
         "id": "item_4",
         "name": "Potatoes",
         "count": 30,
         "storage_id": "storage_24",
-        "category": "\u041e\u0432\u043e\u0449\u0438"
+        "category": "\u041e\u0432\u043e\u0449\u0438",
+        "expiration_date": "2025-06-03T00:00:00Z"
       }
     ]
   }

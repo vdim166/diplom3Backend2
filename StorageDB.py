@@ -1,8 +1,9 @@
-from pydantic import BaseModel
+from pydantic import BaseModel, Field
 from typing import Dict, List, Optional
 import json
 import os
 from uuid import uuid4
+from datetime import datetime, timezone, timedelta
 
 import chardet
 
@@ -12,6 +13,12 @@ class Item(BaseModel):
     count: int
     storage_id: str
     category: Optional[str] = None
+    expiration_date:str = Field(
+        default_factory=lambda: (
+            datetime.now(timezone.utc) + timedelta(days=30)
+            .strftime('%Y-%m-%dT%H:%M:%SZ')
+        )
+    )
 
 class ItemCreate(BaseModel):
     name: str
