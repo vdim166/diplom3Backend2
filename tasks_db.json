@@ -1,47 +1,256 @@
 {
   "todo": {
+    "sasha": [],
     "vadim": [
       {
-        "id": "d5537af4-b49c-42c8-be0d-65ebfe9a5039",
-        "title": "\u041d\u0435\u043e\u0431\u0445\u043e\u0434\u0438\u043c\u043e \u0437\u0430\u043a\u0443\u043f\u0438\u0442\u044c \u041a\u0430\u0440\u0442\u043e\u0444\u0435\u043b\u044c",
+        "id": "52139497-1e91-481e-8d14-eb917380a53a",
+        "title": "\u041d\u0435\u043e\u0431\u0445\u043e\u0434\u0438\u043c\u043e \u043a\u0443\u043f\u0438\u0442\u044c \u0421\u0430\u043b\u0430\u0442 \u0420\u043e\u043c\u0430\u043d\u043e",
         "description": "",
         "assigned_to": "vadim",
-        "created_at": "2025-04-04 02:44:34.747844",
-        "status": "todo"
+        "created_at": "2025-05-07 16:03:03.500480",
+        "status": "todo",
+        "query": null
+      },
+      {
+        "id": "969045b0-2803-4abb-bcaa-b52e196d63ab",
+        "title": "\u041d\u0435\u043e\u0431\u0445\u043e\u0434\u0438\u043c\u043e \u043a\u0443\u043f\u0438\u0442\u044c \u041a\u0430\u0440\u0442\u043e\u0444\u0435\u043b\u044c",
+        "description": "",
+        "assigned_to": "vadim",
+        "created_at": "2025-05-07 16:03:03.514556",
+        "status": "todo",
+        "query": null
+      },
+      {
+        "id": "a9b4fed9-1db7-4e12-b28e-540182474d32",
+        "title": "\u041d\u0435\u043e\u0431\u0445\u043e\u0434\u0438\u043c\u043e \u043a\u0443\u043f\u0438\u0442\u044c \u0410\u043f\u0435\u043b\u044c\u0441\u0438\u043d\u044b",
+        "description": "",
+        "assigned_to": "vadim",
+        "created_at": "2025-05-07 16:03:03.526488",
+        "status": "todo",
+        "query": null
+      },
+      {
+        "id": "211e37a8-aef5-46e0-97bf-648be909be89",
+        "title": "\u041d\u0435\u043e\u0431\u0445\u043e\u0434\u0438\u043c\u043e \u043a\u0443\u043f\u0438\u0442\u044c \u0417\u0435\u043b\u0435\u043d\u043e\u043b\u0438\u0441\u0442\u043d\u044b\u0439 \u0441\u0430\u043b\u0430\u0442",
+        "description": "",
+        "assigned_to": "vadim",
+        "created_at": "2025-05-07 16:03:03.536005",
+        "status": "todo",
+        "query": null
+      },
+      {
+        "id": "47be482e-1177-4ac7-98a7-2d87754ccc6d",
+        "title": "\u041d\u0435\u043e\u0431\u0445\u043e\u0434\u0438\u043c\u043e \u043a\u0443\u043f\u0438\u0442\u044c \u0410\u0432\u043e\u043a\u0430\u0434\u043e",
+        "description": "",
+        "assigned_to": "vadim",
+        "created_at": "2025-05-07 16:03:03.543653",
+        "status": "todo",
+        "query": null
+      },
+      {
+        "id": "8541ddc2-b640-4b01-a3d9-3d9549b7774d",
+        "title": "\u041d\u0435\u043e\u0431\u0445\u043e\u0434\u0438\u043c\u043e \u043a\u0443\u043f\u0438\u0442\u044c \u0414\u044b\u043d\u044f \u041c\u0435\u0434\u043e\u0432\u0430\u044f",
+        "description": "",
+        "assigned_to": "vadim",
+        "created_at": "2025-05-07 16:03:03.551771",
+        "status": "todo",
+        "query": null
+      },
+      {
+        "id": "2f8bec1d-0164-4e85-86eb-280f168d7025",
+        "title": "\u041d\u0435\u043e\u0431\u0445\u043e\u0434\u0438\u043c\u043e \u043a\u0443\u043f\u0438\u0442\u044c \u041f\u0435\u0440\u0441\u0438\u043a\u0438",
+        "description": "",
+        "assigned_to": "vadim",
+        "created_at": "2025-05-07 16:03:03.558924",
+        "status": "todo",
+        "query": null
+      },
+      {
+        "id": "73279cbc-1125-433b-b416-1a84c990221c",
+        "title": "\u041d\u0435\u043e\u0431\u0445\u043e\u0434\u0438\u043c\u043e \u043f\u0440\u043e\u0434\u0430\u0442\u044c \u041a\u0440\u0430\u0441\u043d\u043e\u043b\u0438\u0441\u0442\u043d\u044b\u0439 \u0441\u0430\u043b\u0430\u0442",
+        "description": "",
+        "assigned_to": "vadim",
+        "created_at": "2025-05-07 16:03:03.565002",
+        "status": "todo",
+        "query": null
+      },
+      {
+        "id": "1bd149a6-d163-49fd-92cb-8db1bd5ec152",
+        "title": "\u041d\u0435\u043e\u0431\u0445\u043e\u0434\u0438\u043c\u043e \u043f\u0440\u043e\u0434\u0430\u0442\u044c \u0421\u0430\u043b\u0430\u0442 \u0410\u0439\u0441\u0431\u0435\u0440\u0433",
+        "description": "",
+        "assigned_to": "vadim",
+        "created_at": "2025-05-07 16:03:03.571989",
+        "status": "todo",
+        "query": null
+      },
+      {
+        "id": "7a72d6bb-b245-4f0d-b29e-0b07b39f5f9a",
+        "title": "\u041d\u0435\u043e\u0431\u0445\u043e\u0434\u0438\u043c\u043e \u043f\u0440\u043e\u0434\u0430\u0442\u044c \u0421\u0435\u043b\u044c\u0434\u0435\u0440\u0435\u0439",
+        "description": "",
+        "assigned_to": "vadim",
+        "created_at": "2025-05-07 16:03:03.580651",
+        "status": "todo",
+        "query": null
+      },
+      {
+        "id": "129686c8-5796-4d09-b6a5-13298a6deb49",
+        "title": "\u041d\u0435\u043e\u0431\u0445\u043e\u0434\u0438\u043c\u043e \u043f\u0440\u043e\u0434\u0430\u0442\u044c \u0426\u0432\u0435\u0442\u043d\u0430\u044f \u043a\u0430\u043f\u0443\u0441\u0442\u0430",
+        "description": "",
+        "assigned_to": "vadim",
+        "created_at": "2025-05-07 16:03:03.590250",
+        "status": "todo",
+        "query": null
+      },
+      {
+        "id": "53a78199-59e5-416d-bb81-8cefebc45cf4",
+        "title": "\u041d\u0435\u043e\u0431\u0445\u043e\u0434\u0438\u043c\u043e \u043f\u0440\u043e\u0434\u0430\u0442\u044c \u041c\u043e\u0440\u043a\u043e\u0432\u044c",
+        "description": "",
+        "assigned_to": "vadim",
+        "created_at": "2025-05-07 16:03:03.597026",
+        "status": "todo",
+        "query": null
+      },
+      {
+        "id": "4a6435d3-d4f6-496f-b28c-8b625bb590ee",
+        "title": "\u041d\u0435\u043e\u0431\u0445\u043e\u0434\u0438\u043c\u043e \u043f\u0440\u043e\u0434\u0430\u0442\u044c \u0414\u044b\u043d\u044f \u041a\u0430\u043d\u0442\u0430\u043b\u0443\u043f\u0430",
+        "description": "",
+        "assigned_to": "vadim",
+        "created_at": "2025-05-07 16:03:03.605281",
+        "status": "todo",
+        "query": null
+      },
+      {
+        "id": "bb47ebfc-9bf4-443d-bade-947f0a5618ab",
+        "title": "\u041d\u0435\u043e\u0431\u0445\u043e\u0434\u0438\u043c\u043e \u043f\u0440\u043e\u0434\u0430\u0442\u044c \u0421\u043e\u0446\u0432\u0435\u0442\u0438\u044f \u0431\u0440\u043e\u043a\u043a\u043e\u043b\u0438",
+        "description": "",
+        "assigned_to": "vadim",
+        "created_at": "2025-05-07 16:03:03.611474",
+        "status": "todo",
+        "query": null
+      },
+      {
+        "id": "0a663945-5d2a-4fd3-bc59-8f3a75e5eb40",
+        "title": "\u041d\u0435\u043e\u0431\u0445\u043e\u0434\u0438\u043c\u043e \u043f\u0440\u043e\u0434\u0430\u0442\u044c \u041f\u0443\u0447\u043a\u0438 \u0431\u0440\u043e\u043a\u043a\u043e\u043b\u0438",
+        "description": "",
+        "assigned_to": "vadim",
+        "created_at": "2025-05-07 16:03:03.618698",
+        "status": "todo",
+        "query": null
+      },
+      {
+        "id": "f4b59345-e9b7-4b39-919f-8ccfd68d0e02",
+        "title": "\u041d\u0435\u043e\u0431\u0445\u043e\u0434\u0438\u043c\u043e \u043f\u0440\u043e\u0434\u0430\u0442\u044c \u0421\u043f\u0430\u0440\u0436\u0430",
+        "description": "",
+        "assigned_to": "vadim",
+        "created_at": "2025-05-07 16:03:03.626307",
+        "status": "todo",
+        "query": null
+      },
+      {
+        "id": "8634f228-d384-44ab-b6c9-2b7ebddf2082",
+        "title": "\u041d\u0435\u043e\u0431\u0445\u043e\u0434\u0438\u043c\u043e \u043f\u0440\u043e\u0434\u0430\u0442\u044c \u0412\u0438\u043d\u043e\u0433\u0440\u0430\u0434 \u0424\u043b\u0435\u0439\u043c",
+        "description": "",
+        "assigned_to": "vadim",
+        "created_at": "2025-05-07 16:03:03.631823",
+        "status": "todo",
+        "query": null
+      },
+      {
+        "id": "7a3ce5a2-c062-471b-82cf-fd9c3f9b73b4",
+        "title": "\u041d\u0435\u043e\u0431\u0445\u043e\u0434\u0438\u043c\u043e \u043f\u0440\u043e\u0434\u0430\u0442\u044c \u0412\u0438\u043d\u043e\u0433\u0440\u0430\u0434 \u0422\u043e\u043c\u043f\u0441\u043e\u043d",
+        "description": "",
+        "assigned_to": "vadim",
+        "created_at": "2025-05-07 16:03:03.639218",
+        "status": "todo",
+        "query": null
+      },
+      {
+        "id": "0131b0ed-ae5e-49d5-b464-5095e1485c33",
+        "title": "\u041d\u0435\u043e\u0431\u0445\u043e\u0434\u0438\u043c\u043e \u043f\u0440\u043e\u0434\u0430\u0442\u044c \u041f\u043e\u043c\u0438\u0434\u043e\u0440\u044b",
+        "description": "",
+        "assigned_to": "vadim",
+        "created_at": "2025-05-07 16:03:03.645135",
+        "status": "todo",
+        "query": null
+      },
+      {
+        "id": "f400f7ff-c63e-42e3-924e-bea648dd7adf",
+        "title": "\u041d\u0435\u043e\u0431\u0445\u043e\u0434\u0438\u043c\u043e \u043f\u0440\u043e\u0434\u0430\u0442\u044c \u0421\u043b\u0438\u0432\u044b",
+        "description": "",
+        "assigned_to": "vadim",
+        "created_at": "2025-05-07 16:03:03.652179",
+        "status": "todo",
+        "query": null
+      },
+      {
+        "id": "2442013c-9090-4f2e-b459-55cf1cc04afc",
+        "title": "\u041d\u0435\u043e\u0431\u0445\u043e\u0434\u0438\u043c\u043e \u043f\u0440\u043e\u0434\u0430\u0442\u044c \u041d\u0435\u043a\u0442\u0430\u0440\u0438\u043d\u044b",
+        "description": "",
+        "assigned_to": "vadim",
+        "created_at": "2025-05-07 16:03:03.658665",
+        "status": "todo",
+        "query": null
       }
-    ],
+    ]
+  },
+  "in_progress": {},
+  "done": {
     "sasha": [
       {
-        "id": "6e5b53f0-9b3e-44b6-bdb8-3fea2e2121f5",
-        "title": "\u041d\u0435\u043e\u0431\u0445\u043e\u0434\u0438\u043c\u043e \u0437\u0430\u043a\u0443\u043f\u0438\u0442\u044c \u041a\u0430\u0440\u0442\u043e\u0444\u0435\u043b\u044c",
+        "id": "043e9678-c273-4077-8c81-2c3c87110970",
+        "title": "\u041d\u0435\u043e\u0431\u0445\u043e\u0434\u0438\u043c\u043e \u043f\u0440\u043e\u0434\u0430\u0442\u044c (2) \u041a\u0440\u0430\u0441\u043d\u043e\u043b\u0438\u0441\u0442\u043d\u044b\u0439 \u0441\u0430\u043b\u0430\u0442",
         "description": "",
         "assigned_to": "sasha",
-        "created_at": "2025-04-04 23:28:13.601362",
-        "status": "todo"
+        "created_at": "2025-05-07 12:35:48.809242",
+        "status": "done",
+        "query": "{\"action\":\"sell\",\"product\":\"Red Leaf Lettuce\",\"count\":2,\"storage\":\"storage_2\"}"
+      },
+      {
+        "id": "3d1223e2-a456-4632-b3e9-cd46a5686c45",
+        "title": "\u041d\u0435\u043e\u0431\u0445\u043e\u0434\u0438\u043c\u043e \u043f\u0440\u043e\u0434\u0430\u0442\u044c \u0432 storage_1 (2) \u041a\u043b\u0443\u0431\u043d\u0438\u043a\u0430",
+        "description": "",
+        "assigned_to": "sasha",
+        "created_at": "2025-05-07 14:31:57.879922",
+        "status": "done",
+        "query": "{\"action\":\"sell\",\"product\":\"Strawberries\",\"count\":2,\"storage\":\"storage_1\"}"
+      },
+      {
+        "id": "9aab6273-40e8-4b30-9531-c6f7ebeb6433",
+        "title": "\u041d\u0435\u043e\u0431\u0445\u043e\u0434\u0438\u043c\u043e \u043f\u0435\u0440\u0435\u0434\u0432\u0438\u043d\u0443\u0442\u044c \u043d\u0430 storage_2 (10) \u041a\u0430\u0440\u0442\u043e\u0444\u0435\u043b\u044c",
+        "description": "",
+        "assigned_to": "sasha",
+        "created_at": "2025-05-07 14:43:48.198825",
+        "status": "done",
+        "query": "{\"action\":\"move\",\"product\":\"Potatoes\",\"count\":10,\"storage\":\"storage_1\",\"from\":\"storage_2\"}"
+      },
+      {
+        "id": "7c7c3721-b6fa-4a77-8842-9b5159a177a9",
+        "title": "\u041d\u0435\u043e\u0431\u0445\u043e\u0434\u0438\u043c\u043e \u0434\u043e\u0431\u0430\u0432\u0438\u0442\u044c \u043d\u0430 storage_1 (2) \u0421\u0430\u043b\u0430\u0442 \u0420\u043e\u043c\u0430\u043d\u043e",
+        "description": "",
+        "assigned_to": "sasha",
+        "created_at": "2025-05-07 14:49:50.958857",
+        "status": "done",
+        "query": "{\"action\":\"add\",\"product\":\"Romaine Lettuce\",\"count\":2,\"storage\":\"storage_1\"}"
+      },
+      {
+        "id": "99a6f241-0508-4e25-aaa0-1ac01bf9c8c4",
+        "title": "\u041d\u0435\u043e\u0431\u0445\u043e\u0434\u0438\u043c\u043e \u0434\u043e\u0431\u0430\u0432\u0438\u0442\u044c \u043d\u0430 storage_1 (5) \u0410\u043f\u0435\u043b\u044c\u0441\u0438\u043d\u044b",
+        "description": "",
+        "assigned_to": "sasha",
+        "created_at": "2025-05-07 14:56:15.617639",
+        "status": "done",
+        "query": "{\"action\":\"add\",\"product\":\"Oranges\",\"count\":5,\"storage\":\"storage_1\"}"
       }
-    ]
-  },
-  "in_progress": {
+    ],
     "vadim": [
       {
-        "id": "c494e810-defa-4f04-8787-399accc541b9",
-        "title": "\u041d\u0435\u043e\u0431\u0445\u043e\u0434\u0438\u043c\u043e \u0437\u0430\u043a\u0443\u043f\u0438\u0442\u044c \u041a\u0430\u0440\u0442\u043e\u0444\u0435\u043b\u044c",
+        "id": "5daa8636-5c54-424f-80ba-577480331225",
+        "title": "\u041d\u0435\u043e\u0431\u0445\u043e\u0434\u0438\u043c\u043e \u043f\u0440\u043e\u0434\u0430\u0442\u044c \u0432 storage_1 (31) \u041a\u043b\u0443\u0431\u043d\u0438\u043a\u0430",
         "description": "",
         "assigned_to": "vadim",
-        "created_at": "2025-04-04 23:02:57.305763",
-        "status": "in_progress"
-      }
-    ]
-  },
-  "done": {
-    "vadim": [
-      {
-        "id": "37db939f-04c7-4b54-996e-f6b315492f76",
-        "title": "\u041d\u0435\u043e\u0431\u0445\u043e\u0434\u0438\u043c\u043e \u0437\u0430\u043a\u0443\u043f\u0438\u0442\u044c \u0412\u0438\u043d\u043e\u0433\u0440\u0430\u0434 \u0424\u043b\u0435\u0439\u043c",
-        "description": "",
-        "assigned_to": "vadim",
-        "created_at": "2025-04-06 14:47:41.826328",
-        "status": "done"
+        "created_at": "2025-05-07 14:39:17.284961",
+        "status": "done",
+        "query": "{\"action\":\"sell\",\"product\":\"Strawberries\",\"count\":31,\"storage\":\"storage_1\"}"
       }
     ]
   }

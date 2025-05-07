@@ -19,11 +19,13 @@ class Task(BaseModel):
     assigned_to: str
     created_at: datetime
     status: TaskStatus
+    query: Optional[str] = None
 
 class TaskCreate(BaseModel):
     title: str
     description: str
     assigned_to: str
+    query: Optional[str] = None
 
 class TaskUpdate(BaseModel):
     title: Optional[str] = None
@@ -73,7 +75,8 @@ class TaskDB:
             description=task_data.description,
             assigned_to=task_data.assigned_to,
             created_at=datetime.now(),
-            status=TaskStatus.TODO
+            status=TaskStatus.TODO,
+            query=task_data.query
         )
         
         if new_task.assigned_to not in self.data["todo"]:

@@ -11,6 +11,7 @@ from TaskDB import TaskDB, Task, TaskCreate, TaskUpdate, TaskMove
 from typing import List, Optional, Dict
 from StorageDB import StorageDB, Item, Storage, ItemCreate, ItemUpdate
 from model import PricePredictor
+import json
 
 
 predictor = PricePredictor()
@@ -232,8 +233,34 @@ async def update_task(
     update_data: TaskUpdate = Body(...)
 ):
     task = task_db.update_task(task_id, update_data)
+    
     if not task:
         raise HTTPException(status_code=404, detail="Task not found")
+    
+
+    if update_data.status == 'done':
+        if task.query != None: 
+            data = json.loads(task.query)
+
+            if data['action'] == 'sell':
+                for item in storage_db.get_items(data['storage']):
+                    if item.name == data['product']:
+                        item.count-= data['count']
+
+                        if item.count <= 0:
+                            storage_db.delete_item(data['product'], data['storage'])
+                        else:
+                            storage_db.update_item(data['product'], data['storage'], item)
+                
+            if data['action'] == 'add':
+                storage_db.add_item(data['storage'], ItemCreate(name= data['product'], count= data['count']))
+            if data['action'] == 'move':
+                storage_db._move_item(data['product'], data['from'], data['storage'], data['count'])
+
+
+
+
+
     return task
 
 @app.post("/tasks/{task_id}/move", response_model=Task)
@@ -269,8 +296,8 @@ async def get_items(storage_id: Optional[str] = None):
     return storage_db.get_items(storage_id)
 
 @app.put("/items/{item_id}", response_model=Item)
-async def update_item(item_id: str, update_data: ItemUpdate = Body(...)):
-    item = storage_db.update_item(item_id, update_data)
+async def update_item(item_id: str, storage_id:str, update_data: ItemUpdate = Body(...)):
+    item = storage_db.update_item(item_id,storage_id, update_data)
     if not item:
         raise HTTPException(status_code=404, detail="Товар не найден")
     return item

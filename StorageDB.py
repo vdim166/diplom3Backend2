@@ -82,22 +82,40 @@ class StorageDB:
             self._save()
 
     def add_item(self, storage_id: str, item_data: ItemCreate) -> Item:
+        # 1. Check if storage exists
         if storage_id not in self.storages:
-            raise ValueError("Хранилище не найдено")
+            raise ValueError(f"Storage {storage_id} not found")
         
+        # 2. Check if storage has enough capacity
+        storage = self.storages[storage_id]
+        if storage.current_load + item_data.count > storage.capacity:
+            raise ValueError("Not enough capacity in storage")
+        
+        # 3. Create new item with unique ID
         new_item = Item(
-            id=str(uuid4()),
-            **item_data.dict(),
-            storage_id=storage_id
+            id=str(uuid4()),  # Generate unique ID
+            name=item_data.name,
+            count=item_data.count,
+            storage_id=storage_id,
+            # Add other fields from item_data as needed
         )
         
+        # 4. Add to storage
         if storage_id not in self.items:
             self.items[storage_id] = []
-        self.items[storage_id].append(new_item)
         
-        storage = self.storages[storage_id]
-        storage.current_load += item_data.count
+        # Check if item already exists (optional - merge counts if exists)
+        for existing_item in self.items[storage_id]:
+            if existing_item.name == new_item.name:
+                existing_item.count += new_item.count
+                self._save()
+                return existing_item
+        
+        # If not exists, add new item
+        self.items[storage_id].append(new_item)
+        storage.current_load += new_item.count
         self._save()
+        
         return new_item
 
     def get_items(self, storage_id: Optional[str] = None) -> List[Item]:
@@ -105,55 +123,99 @@ class StorageDB:
             return self.items.get(storage_id, [])
         return [item for items in self.items.values() for item in items]
 
-    def update_item(self, item_id: str, update_data: ItemUpdate) -> Optional[Item]:
-        for storage_id, items in self.items.items():
-            for i, item in enumerate(items):
-                if item.id == item_id:
-                    if update_data.storage_id and update_data.storage_id != storage_id:
-                        return self._move_item(item, update_data)
+    def update_item(self, item_name: str,storage_id:str, update_data: ItemUpdate) -> Optional[Item]:
+
+        for item_index in range(len(self.items[storage_id])):
+            item = self.items[storage_id][item_index]
+            if item.name == item_name:
+                self.items[storage_id][item_index] = update_data
+
+
+                self._save()
+                break
                     
-                    old_count = item.count
-                    updated_item = item.copy(update=update_data.dict(exclude_unset=True))
-                    items[i] = updated_item
-                    
-                    if update_data.count:
-                        storage = self.storages[storage_id]
-                        storage.current_load += (update_data.count - old_count)
-                    
-                    self._save()
-                    return updated_item
+        
         return None
 
-    def _move_item(self, item: Item, update_data: ItemUpdate) -> Item:
-        new_storage_id = update_data.storage_id
-        if new_storage_id not in self.storages:
-            raise ValueError("Новое хранилище не найдено")
+      
+
+    def _move_item(
+        self, 
+        item_name: str, 
+        from_storage_id: str, 
+        to_storage_id: str, 
+        count: int
+    ) -> Item:
+        # Проверяем существование целевого хранилища
+        if to_storage_id not in self.storages:
+            raise ValueError("Целевое хранилище не найдено")
         
-        old_storage = self.storages[item.storage_id]
-        old_storage.current_load -= item.count
-        self.items[item.storage_id] = [i for i in self.items[item.storage_id] if i.id != item.id]
+        # Находим предмет в исходном хранилище
+        item_to_move = None
+        item_index = -1
         
-        new_item = item.copy(update=update_data.dict(exclude_unset=True))
-        new_item.storage_id = new_storage_id
+        for i, item in enumerate(self.items.get(from_storage_id, [])):
+            if item.name == item_name:
+                item_to_move = item
+                item_index = i
+                break
         
-        if new_storage_id not in self.items:
-            self.items[new_storage_id] = []
-        self.items[new_storage_id].append(new_item)
+        if item_to_move is None:
+            raise ValueError("Предмет не найден в исходном хранилище")
         
-        new_storage = self.storages[new_storage_id]
-        new_storage.current_load += new_item.count
+        # Проверяем доступное количество
+        if count <= 0:
+            raise ValueError("Количество должно быть положительным")
+        if count > item_to_move.count:
+            raise ValueError(f"Недостаточно предметов (доступно: {item_to_move.count}, запрошено: {count})")
+        
+        # Обновляем исходный предмет (уменьшаем количество)
+        remaining_count = item_to_move.count - count
+        if remaining_count > 0:
+            # Если остались предметы - обновляем количество
+            self.items[from_storage_id][item_index].count = remaining_count
+        else:
+            # Если предметов не осталось - удаляем
+            self.items[from_storage_id].pop(item_index)
+        
+        self.storages[from_storage_id].current_load -= count
+        
+        # Создаем новую версию предмета для целевого хранилища
+        new_item = item_to_move.copy()
+        new_item.storage_id = to_storage_id
+        new_item.count = count
+        
+        # Добавляем предмет в целевое хранилище
+        if to_storage_id not in self.items:
+            self.items[to_storage_id] = []
+        
+        # Проверяем, есть ли уже такой предмет в целевом хранилище
+        existing_item_index = next(
+            (i for i, item in enumerate(self.items[to_storage_id]) 
+            if item.name == item_name), 
+            None
+        )
+        
+        if existing_item_index is not None:
+            # Если предмет уже есть - увеличиваем количество
+            self.items[to_storage_id][existing_item_index].count += count
+        else:
+            # Если предмета нет - добавляем новый
+            self.items[to_storage_id].append(new_item)
+        
+        self.storages[to_storage_id].current_load += count
         
         self._save()
         return new_item
+    
 
-    def delete_item(self, item_id: str) -> bool:
-        for storage_id, items in self.items.items():
-            for i, item in enumerate(items):
-                if item.id == item_id:
-                    storage = self.storages[storage_id]
-                    storage.current_load -= item.count
-                    
-                    self.items[storage_id].pop(i)
-                    self._save()
-                    return True
+    def delete_item(self, item_name: str, storage_id:str) -> bool:
+        for item_index in range(len(self.items[storage_id])):
+            item = self.items[storage_id][item_index]
+            if item.name == item_name:
+                self.items[storage_id].pop(item_index)
+                self._save()
+                return True
+        
         return False
+
