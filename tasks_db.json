@@ -3,470 +3,69 @@
     "sasha": [],
     "vadim": [
       {
-        "id": "52139497-1e91-481e-8d14-eb917380a53a",
-        "title": "\u041d\u0435\u043e\u0431\u0445\u043e\u0434\u0438\u043c\u043e \u043a\u0443\u043f\u0438\u0442\u044c \u0421\u0430\u043b\u0430\u0442 \u0420\u043e\u043c\u0430\u043d\u043e",
+        "id": "c66c7d98-5946-478e-b6dc-75ee797bc34f",
+        "title": "\u0421\u0440\u043e\u0447\u043d\u043e \u043f\u0440\u043e\u0434\u0430\u0442\u044c \u0421\u0430\u043b\u0430\u0442 \u0420\u043e\u043c\u0430\u043d\u043e, \u0410\u043f\u0435\u043b\u044c\u0441\u0438\u043d\u044b, \u041a\u0440\u0430\u0441\u043d\u043e\u043b\u0438\u0441\u0442\u043d\u044b\u0439 \u0441\u0430\u043b\u0430\u0442, \u0421\u0430\u043b\u0430\u0442 \u0410\u0439\u0441\u0431\u0435\u0440\u0433, \u0417\u0435\u043b\u0435\u043d\u043e\u043b\u0438\u0441\u0442\u043d\u044b\u0439 \u0441\u0430\u043b\u0430\u0442, \u0426\u0432\u0435\u0442\u043d\u0430\u044f \u043a\u0430\u043f\u0443\u0441\u0442\u0430, \u0414\u044b\u043d\u044f \u041a\u0430\u043d\u0442\u0430\u043b\u0443\u043f\u0430, \u041a\u043b\u0443\u0431\u043d\u0438\u043a\u0430, \u0421\u0430\u043b\u0430\u0442 \u0420\u043e\u043c\u0430\u043d\u043e, \u041a\u0440\u0430\u0441\u043d\u043e\u043b\u0438\u0441\u0442\u043d\u044b\u0439 \u0441\u0430\u043b\u0430\u0442, \u0410\u043f\u0435\u043b\u044c\u0441\u0438\u043d\u044b, \u0421\u0430\u043b\u0430\u0442 \u0410\u0439\u0441\u0431\u0435\u0440\u0433, \u0417\u0435\u043b\u0435\u043d\u043e\u043b\u0438\u0441\u0442\u043d\u044b\u0439 \u0441\u0430\u043b\u0430\u0442, \u0421\u0435\u043b\u044c\u0434\u0435\u0440\u0435\u0439, \u0426\u0432\u0435\u0442\u043d\u0430\u044f \u043a\u0430\u043f\u0443\u0441\u0442\u0430, \u041c\u043e\u0440\u043a\u043e\u0432\u044c, \u0414\u044b\u043d\u044f \u041a\u0430\u043d\u0442\u0430\u043b\u0443\u043f\u0430, \u0421\u043e\u0446\u0432\u0435\u0442\u0438\u044f \u0431\u0440\u043e\u043a\u043a\u043e\u043b\u0438",
         "description": "",
         "assigned_to": "vadim",
-        "created_at": "2025-05-07 16:03:03.500480",
+        "created_at": "2025-05-10 15:07:34.423062",
         "status": "todo",
         "query": null
       },
       {
-        "id": "969045b0-2803-4abb-bcaa-b52e196d63ab",
-        "title": "\u041d\u0435\u043e\u0431\u0445\u043e\u0434\u0438\u043c\u043e \u043a\u0443\u043f\u0438\u0442\u044c \u041a\u0430\u0440\u0442\u043e\u0444\u0435\u043b\u044c",
+        "id": "93b275ee-eeae-444d-a77f-7e7d9b34c64e",
+        "title": "\u0421\u0440\u043e\u0447\u043d\u043e \u043f\u0440\u043e\u0434\u0430\u0442\u044c \u0421\u0430\u043b\u0430\u0442 \u0420\u043e\u043c\u0430\u043d\u043e, \u0410\u043f\u0435\u043b\u044c\u0441\u0438\u043d\u044b, \u041a\u0440\u0430\u0441\u043d\u043e\u043b\u0438\u0441\u0442\u043d\u044b\u0439 \u0441\u0430\u043b\u0430\u0442, \u0421\u0430\u043b\u0430\u0442 \u0410\u0439\u0441\u0431\u0435\u0440\u0433, \u0417\u0435\u043b\u0435\u043d\u043e\u043b\u0438\u0441\u0442\u043d\u044b\u0439 \u0441\u0430\u043b\u0430\u0442, \u0426\u0432\u0435\u0442\u043d\u0430\u044f \u043a\u0430\u043f\u0443\u0441\u0442\u0430, \u0414\u044b\u043d\u044f \u041a\u0430\u043d\u0442\u0430\u043b\u0443\u043f\u0430, \u041a\u043b\u0443\u0431\u043d\u0438\u043a\u0430, \u0421\u0430\u043b\u0430\u0442 \u0420\u043e\u043c\u0430\u043d\u043e, \u041a\u0440\u0430\u0441\u043d\u043e\u043b\u0438\u0441\u0442\u043d\u044b\u0439 \u0441\u0430\u043b\u0430\u0442, \u0410\u043f\u0435\u043b\u044c\u0441\u0438\u043d\u044b, \u0421\u0430\u043b\u0430\u0442 \u0410\u0439\u0441\u0431\u0435\u0440\u0433, \u0417\u0435\u043b\u0435\u043d\u043e\u043b\u0438\u0441\u0442\u043d\u044b\u0439 \u0441\u0430\u043b\u0430\u0442, \u0421\u0435\u043b\u044c\u0434\u0435\u0440\u0435\u0439, \u0426\u0432\u0435\u0442\u043d\u0430\u044f \u043a\u0430\u043f\u0443\u0441\u0442\u0430, \u041c\u043e\u0440\u043a\u043e\u0432\u044c, \u0414\u044b\u043d\u044f \u041a\u0430\u043d\u0442\u0430\u043b\u0443\u043f\u0430, \u0421\u043e\u0446\u0432\u0435\u0442\u0438\u044f \u0431\u0440\u043e\u043a\u043a\u043e\u043b\u0438",
         "description": "",
         "assigned_to": "vadim",
-        "created_at": "2025-05-07 16:03:03.514556",
+        "created_at": "2025-05-10 15:14:20.699852",
         "status": "todo",
         "query": null
-      },
+      }
+    ],
+    "sasha123": [
       {
-        "id": "a9b4fed9-1db7-4e12-b28e-540182474d32",
-        "title": "\u041d\u0435\u043e\u0431\u0445\u043e\u0434\u0438\u043c\u043e \u043a\u0443\u043f\u0438\u0442\u044c \u0410\u043f\u0435\u043b\u044c\u0441\u0438\u043d\u044b",
+        "id": "2142917f-2eaa-4a46-8097-3700fb8840fe",
+        "title": "\u041d\u0435\u043e\u0431\u0445\u043e\u0434\u0438\u043c\u043e \u043f\u0440\u043e\u0434\u0430\u0442\u044c \u0432 storage_2 (2) \u041a\u0430\u0440\u0442\u043e\u0444\u0435\u043b\u044c",
         "description": "",
-        "assigned_to": "vadim",
-        "created_at": "2025-05-07 16:03:03.526488",
+        "assigned_to": "sasha123",
+        "created_at": "2025-05-10 15:25:47.092213",
         "status": "todo",
-        "query": null
-      },
-      {
-        "id": "211e37a8-aef5-46e0-97bf-648be909be89",
-        "title": "\u041d\u0435\u043e\u0431\u0445\u043e\u0434\u0438\u043c\u043e \u043a\u0443\u043f\u0438\u0442\u044c \u0417\u0435\u043b\u0435\u043d\u043e\u043b\u0438\u0441\u0442\u043d\u044b\u0439 \u0441\u0430\u043b\u0430\u0442",
-        "description": "",
-        "assigned_to": "vadim",
-        "created_at": "2025-05-07 16:03:03.536005",
-        "status": "todo",
-        "query": null
-      },
-      {
-        "id": "47be482e-1177-4ac7-98a7-2d87754ccc6d",
-        "title": "\u041d\u0435\u043e\u0431\u0445\u043e\u0434\u0438\u043c\u043e \u043a\u0443\u043f\u0438\u0442\u044c \u0410\u0432\u043e\u043a\u0430\u0434\u043e",
-        "description": "",
-        "assigned_to": "vadim",
-        "created_at": "2025-05-07 16:03:03.543653",
-        "status": "todo",
-        "query": null
-      },
-      {
-        "id": "8541ddc2-b640-4b01-a3d9-3d9549b7774d",
-        "title": "\u041d\u0435\u043e\u0431\u0445\u043e\u0434\u0438\u043c\u043e \u043a\u0443\u043f\u0438\u0442\u044c \u0414\u044b\u043d\u044f \u041c\u0435\u0434\u043e\u0432\u0430\u044f",
-        "description": "",
-        "assigned_to": "vadim",
-        "created_at": "2025-05-07 16:03:03.551771",
-        "status": "todo",
-        "query": null
-      },
-      {
-        "id": "2f8bec1d-0164-4e85-86eb-280f168d7025",
-        "title": "\u041d\u0435\u043e\u0431\u0445\u043e\u0434\u0438\u043c\u043e \u043a\u0443\u043f\u0438\u0442\u044c \u041f\u0435\u0440\u0441\u0438\u043a\u0438",
-        "description": "",
-        "assigned_to": "vadim",
-        "created_at": "2025-05-07 16:03:03.558924",
-        "status": "todo",
-        "query": null
-      },
-      {
-        "id": "73279cbc-1125-433b-b416-1a84c990221c",
-        "title": "\u041d\u0435\u043e\u0431\u0445\u043e\u0434\u0438\u043c\u043e \u043f\u0440\u043e\u0434\u0430\u0442\u044c \u041a\u0440\u0430\u0441\u043d\u043e\u043b\u0438\u0441\u0442\u043d\u044b\u0439 \u0441\u0430\u043b\u0430\u0442",
-        "description": "",
-        "assigned_to": "vadim",
-        "created_at": "2025-05-07 16:03:03.565002",
-        "status": "todo",
-        "query": null
-      },
-      {
-        "id": "1bd149a6-d163-49fd-92cb-8db1bd5ec152",
-        "title": "\u041d\u0435\u043e\u0431\u0445\u043e\u0434\u0438\u043c\u043e \u043f\u0440\u043e\u0434\u0430\u0442\u044c \u0421\u0430\u043b\u0430\u0442 \u0410\u0439\u0441\u0431\u0435\u0440\u0433",
-        "description": "",
-        "assigned_to": "vadim",
-        "created_at": "2025-05-07 16:03:03.571989",
-        "status": "todo",
-        "query": null
-      },
-      {
-        "id": "7a72d6bb-b245-4f0d-b29e-0b07b39f5f9a",
-        "title": "\u041d\u0435\u043e\u0431\u0445\u043e\u0434\u0438\u043c\u043e \u043f\u0440\u043e\u0434\u0430\u0442\u044c \u0421\u0435\u043b\u044c\u0434\u0435\u0440\u0435\u0439",
-        "description": "",
-        "assigned_to": "vadim",
-        "created_at": "2025-05-07 16:03:03.580651",
-        "status": "todo",
-        "query": null
-      },
-      {
-        "id": "129686c8-5796-4d09-b6a5-13298a6deb49",
-        "title": "\u041d\u0435\u043e\u0431\u0445\u043e\u0434\u0438\u043c\u043e \u043f\u0440\u043e\u0434\u0430\u0442\u044c \u0426\u0432\u0435\u0442\u043d\u0430\u044f \u043a\u0430\u043f\u0443\u0441\u0442\u0430",
-        "description": "",
-        "assigned_to": "vadim",
-        "created_at": "2025-05-07 16:03:03.590250",
-        "status": "todo",
-        "query": null
-      },
-      {
-        "id": "53a78199-59e5-416d-bb81-8cefebc45cf4",
-        "title": "\u041d\u0435\u043e\u0431\u0445\u043e\u0434\u0438\u043c\u043e \u043f\u0440\u043e\u0434\u0430\u0442\u044c \u041c\u043e\u0440\u043a\u043e\u0432\u044c",
-        "description": "",
-        "assigned_to": "vadim",
-        "created_at": "2025-05-07 16:03:03.597026",
-        "status": "todo",
-        "query": null
-      },
-      {
-        "id": "4a6435d3-d4f6-496f-b28c-8b625bb590ee",
-        "title": "\u041d\u0435\u043e\u0431\u0445\u043e\u0434\u0438\u043c\u043e \u043f\u0440\u043e\u0434\u0430\u0442\u044c \u0414\u044b\u043d\u044f \u041a\u0430\u043d\u0442\u0430\u043b\u0443\u043f\u0430",
-        "description": "",
-        "assigned_to": "vadim",
-        "created_at": "2025-05-07 16:03:03.605281",
-        "status": "todo",
-        "query": null
-      },
-      {
-        "id": "bb47ebfc-9bf4-443d-bade-947f0a5618ab",
-        "title": "\u041d\u0435\u043e\u0431\u0445\u043e\u0434\u0438\u043c\u043e \u043f\u0440\u043e\u0434\u0430\u0442\u044c \u0421\u043e\u0446\u0432\u0435\u0442\u0438\u044f \u0431\u0440\u043e\u043a\u043a\u043e\u043b\u0438",
-        "description": "",
-        "assigned_to": "vadim",
-        "created_at": "2025-05-07 16:03:03.611474",
-        "status": "todo",
-        "query": null
-      },
-      {
-        "id": "0a663945-5d2a-4fd3-bc59-8f3a75e5eb40",
-        "title": "\u041d\u0435\u043e\u0431\u0445\u043e\u0434\u0438\u043c\u043e \u043f\u0440\u043e\u0434\u0430\u0442\u044c \u041f\u0443\u0447\u043a\u0438 \u0431\u0440\u043e\u043a\u043a\u043e\u043b\u0438",
-        "description": "",
-        "assigned_to": "vadim",
-        "created_at": "2025-05-07 16:03:03.618698",
-        "status": "todo",
-        "query": null
-      },
-      {
-        "id": "f4b59345-e9b7-4b39-919f-8ccfd68d0e02",
-        "title": "\u041d\u0435\u043e\u0431\u0445\u043e\u0434\u0438\u043c\u043e \u043f\u0440\u043e\u0434\u0430\u0442\u044c \u0421\u043f\u0430\u0440\u0436\u0430",
-        "description": "",
-        "assigned_to": "vadim",
-        "created_at": "2025-05-07 16:03:03.626307",
-        "status": "todo",
-        "query": null
-      },
-      {
-        "id": "8634f228-d384-44ab-b6c9-2b7ebddf2082",
-        "title": "\u041d\u0435\u043e\u0431\u0445\u043e\u0434\u0438\u043c\u043e \u043f\u0440\u043e\u0434\u0430\u0442\u044c \u0412\u0438\u043d\u043e\u0433\u0440\u0430\u0434 \u0424\u043b\u0435\u0439\u043c",
-        "description": "",
-        "assigned_to": "vadim",
-        "created_at": "2025-05-07 16:03:03.631823",
-        "status": "todo",
-        "query": null
-      },
-      {
-        "id": "7a3ce5a2-c062-471b-82cf-fd9c3f9b73b4",
-        "title": "\u041d\u0435\u043e\u0431\u0445\u043e\u0434\u0438\u043c\u043e \u043f\u0440\u043e\u0434\u0430\u0442\u044c \u0412\u0438\u043d\u043e\u0433\u0440\u0430\u0434 \u0422\u043e\u043c\u043f\u0441\u043e\u043d",
-        "description": "",
-        "assigned_to": "vadim",
-        "created_at": "2025-05-07 16:03:03.639218",
-        "status": "todo",
-        "query": null
-      },
-      {
-        "id": "0131b0ed-ae5e-49d5-b464-5095e1485c33",
-        "title": "\u041d\u0435\u043e\u0431\u0445\u043e\u0434\u0438\u043c\u043e \u043f\u0440\u043e\u0434\u0430\u0442\u044c \u041f\u043e\u043c\u0438\u0434\u043e\u0440\u044b",
-        "description": "",
-        "assigned_to": "vadim",
-        "created_at": "2025-05-07 16:03:03.645135",
-        "status": "todo",
-        "query": null
-      },
-      {
-        "id": "f400f7ff-c63e-42e3-924e-bea648dd7adf",
-        "title": "\u041d\u0435\u043e\u0431\u0445\u043e\u0434\u0438\u043c\u043e \u043f\u0440\u043e\u0434\u0430\u0442\u044c \u0421\u043b\u0438\u0432\u044b",
-        "description": "",
-        "assigned_to": "vadim",
-        "created_at": "2025-05-07 16:03:03.652179",
-        "status": "todo",
-        "query": null
-      },
-      {
-        "id": "2442013c-9090-4f2e-b459-55cf1cc04afc",
-        "title": "\u041d\u0435\u043e\u0431\u0445\u043e\u0434\u0438\u043c\u043e \u043f\u0440\u043e\u0434\u0430\u0442\u044c \u041d\u0435\u043a\u0442\u0430\u0440\u0438\u043d\u044b",
-        "description": "",
-        "assigned_to": "vadim",
-        "created_at": "2025-05-07 16:03:03.658665",
-        "status": "todo",
-        "query": null
-      },
-      {
-        "id": "72aaf116-a112-4192-85e2-b7fc51d80606",
-        "title": "\u0421\u0440\u043e\u0447\u043d\u043e \u043f\u0440\u043e\u0434\u0430\u0442\u044c \u0421\u0430\u043b\u0430\u0442 \u0420\u043e\u043c\u0430\u043d\u043e",
-        "description": "",
-        "assigned_to": "vadim",
-        "created_at": "2025-05-07 22:54:53.898034",
-        "status": "todo",
-        "query": "{\"action\":\"sell\",\"product\":\"Romaine Lettuce\",\"count\":20,\"storage\":\"storage_1\"}"
-      },
-      {
-        "id": "42384f01-f12d-41ee-b8b4-8c92cf7eee36",
-        "title": "\u0421\u0440\u043e\u0447\u043d\u043e \u043f\u0440\u043e\u0434\u0430\u0442\u044c \u041a\u0440\u0430\u0441\u043d\u043e\u043b\u0438\u0441\u0442\u043d\u044b\u0439 \u0441\u0430\u043b\u0430\u0442",
-        "description": "",
-        "assigned_to": "vadim",
-        "created_at": "2025-05-07 22:54:53.904577",
-        "status": "todo",
-        "query": "{\"action\":\"sell\",\"product\":\"Red Leaf Lettuce\",\"count\":20,\"storage\":\"storage_2\"}"
-      },
-      {
-        "id": "7215acfb-4fd7-47db-bde2-0da71fc0867d",
-        "title": "\u0421\u0440\u043e\u0447\u043d\u043e \u043f\u0440\u043e\u0434\u0430\u0442\u044c \u0421\u0430\u043b\u0430\u0442 \u0410\u0439\u0441\u0431\u0435\u0440\u0433",
-        "description": "",
-        "assigned_to": "vadim",
-        "created_at": "2025-05-07 22:54:53.910695",
-        "status": "todo",
-        "query": "{\"action\":\"sell\",\"product\":\"Iceberg Lettuce\",\"count\":25,\"storage\":\"storage_3\"}"
-      },
-      {
-        "id": "75263bcd-63e6-46c4-ba9e-d92f8878659e",
-        "title": "\u0421\u0440\u043e\u0447\u043d\u043e \u043f\u0440\u043e\u0434\u0430\u0442\u044c \u0417\u0435\u043b\u0435\u043d\u043e\u043b\u0438\u0441\u0442\u043d\u044b\u0439 \u0441\u0430\u043b\u0430\u0442",
-        "description": "",
-        "assigned_to": "vadim",
-        "created_at": "2025-05-07 22:54:53.916695",
-        "status": "todo",
-        "query": "{\"action\":\"sell\",\"product\":\"Green Leaf Lettuce\",\"count\":20,\"storage\":\"storage_4\"}"
-      },
-      {
-        "id": "6bab0aca-94fc-429a-98b9-e6958b634050",
-        "title": "\u0421\u0440\u043e\u0447\u043d\u043e \u043f\u0440\u043e\u0434\u0430\u0442\u044c \u041a\u043b\u0443\u0431\u043d\u0438\u043a\u0430",
-        "description": "",
-        "assigned_to": "vadim",
-        "created_at": "2025-05-07 22:54:53.922809",
-        "status": "todo",
-        "query": "{\"action\":\"sell\",\"product\":\"Strawberries\",\"count\":30,\"storage\":\"storage_12\"}"
-      },
-      {
-        "id": "8751ea1d-6545-45dd-b456-eb1084caf3a5",
-        "title": "\u0421\u0440\u043e\u0447\u043d\u043e \u043f\u0440\u043e\u0434\u0430\u0442\u044c \u0421\u0430\u043b\u0430\u0442 \u0420\u043e\u043c\u0430\u043d\u043e",
-        "description": "",
-        "assigned_to": "vadim",
-        "created_at": "2025-05-07 22:54:53.926809",
-        "status": "todo",
-        "query": "{\"action\":\"sell\",\"product\":\"Romaine Lettuce\",\"count\":15,\"storage\":\"storage_12\"}"
-      },
-      {
-        "id": "27e0aa54-1acf-476f-90e1-51bfc494216f",
-        "title": "\u0421\u0440\u043e\u0447\u043d\u043e \u043f\u0440\u043e\u0434\u0430\u0442\u044c \u041a\u0440\u0430\u0441\u043d\u043e\u043b\u0438\u0441\u0442\u043d\u044b\u0439 \u0441\u0430\u043b\u0430\u0442",
-        "description": "",
-        "assigned_to": "vadim",
-        "created_at": "2025-05-07 22:54:53.933846",
-        "status": "todo",
-        "query": "{\"action\":\"sell\",\"product\":\"Red Leaf Lettuce\",\"count\":18,\"storage\":\"storage_13\"}"
-      },
-      {
-        "id": "bb7b2e7c-4ef1-4ebd-b880-69c5844e5bc0",
-        "title": "\u0421\u0440\u043e\u0447\u043d\u043e \u043f\u0440\u043e\u0434\u0430\u0442\u044c \u0410\u043f\u0435\u043b\u044c\u0441\u0438\u043d\u044b",
-        "description": "",
-        "assigned_to": "vadim",
-        "created_at": "2025-05-07 22:54:53.939353",
-        "status": "todo",
-        "query": "{\"action\":\"sell\",\"product\":\"Oranges\",\"count\":50,\"storage\":\"storage_14\"}"
-      },
-      {
-        "id": "e38a898d-febc-41e9-9a53-1f3b6dc39f14",
-        "title": "\u0421\u0440\u043e\u0447\u043d\u043e \u043f\u0440\u043e\u0434\u0430\u0442\u044c \u0421\u0430\u043b\u0430\u0442 \u0410\u0439\u0441\u0431\u0435\u0440\u0433",
-        "description": "",
-        "assigned_to": "vadim",
-        "created_at": "2025-05-07 22:54:53.945353",
-        "status": "todo",
-        "query": "{\"action\":\"sell\",\"product\":\"Iceberg Lettuce\",\"count\":20,\"storage\":\"storage_14\"}"
-      },
-      {
-        "id": "d47505ee-1121-44be-94da-26a0ddaeb5dd",
-        "title": "\u0421\u0440\u043e\u0447\u043d\u043e \u043f\u0440\u043e\u0434\u0430\u0442\u044c \u0417\u0435\u043b\u0435\u043d\u043e\u043b\u0438\u0441\u0442\u043d\u044b\u0439 \u0441\u0430\u043b\u0430\u0442",
-        "description": "",
-        "assigned_to": "vadim",
-        "created_at": "2025-05-07 22:54:53.950859",
-        "status": "todo",
-        "query": "{\"action\":\"sell\",\"product\":\"Green Leaf Lettuce\",\"count\":18,\"storage\":\"storage_15\"}"
-      },
-      {
-        "id": "ae3da11b-e5e1-4195-ad3b-8a03f4573842",
-        "title": "\u0421\u0440\u043e\u0447\u043d\u043e \u043f\u0440\u043e\u0434\u0430\u0442\u044c \u0421\u0435\u043b\u044c\u0434\u0435\u0440\u0435\u0439",
-        "description": "",
-        "assigned_to": "vadim",
-        "created_at": "2025-05-07 22:54:53.956743",
-        "status": "todo",
-        "query": "{\"action\":\"sell\",\"product\":\"Celery\",\"count\":25,\"storage\":\"storage_15\"}"
-      },
-      {
-        "id": "b1fd9871-2d94-4eae-ba70-32959a74f4a7",
-        "title": "\u0421\u0440\u043e\u0447\u043d\u043e \u043f\u0440\u043e\u0434\u0430\u0442\u044c \u0426\u0432\u0435\u0442\u043d\u0430\u044f \u043a\u0430\u043f\u0443\u0441\u0442\u0430",
-        "description": "",
-        "assigned_to": "vadim",
-        "created_at": "2025-05-07 22:54:53.962746",
-        "status": "todo",
-        "query": "{\"action\":\"sell\",\"product\":\"Cauliflower\",\"count\":12,\"storage\":\"storage_16\"}"
-      },
-      {
-        "id": "3f96699b-72db-494f-bf05-5a602d6cd8dc",
-        "title": "\u0421\u0440\u043e\u0447\u043d\u043e \u043f\u0440\u043e\u0434\u0430\u0442\u044c \u0421\u0430\u043b\u0430\u0442 \u0420\u043e\u043c\u0430\u043d\u043e",
-        "description": "",
-        "assigned_to": "vadim",
-        "created_at": "2025-05-07 22:56:48.681374",
-        "status": "todo",
-        "query": "{\"action\":\"sell\",\"product\":\"Romaine Lettuce\",\"count\":20,\"storage\":\"storage_1\"}"
-      },
-      {
-        "id": "7d396913-d875-4a8d-9455-8a66e0704298",
-        "title": "\u0421\u0440\u043e\u0447\u043d\u043e \u043f\u0440\u043e\u0434\u0430\u0442\u044c \u041a\u0440\u0430\u0441\u043d\u043e\u043b\u0438\u0441\u0442\u043d\u044b\u0439 \u0441\u0430\u043b\u0430\u0442",
-        "description": "",
-        "assigned_to": "vadim",
-        "created_at": "2025-05-07 22:56:48.686878",
-        "status": "todo",
-        "query": "{\"action\":\"sell\",\"product\":\"Red Leaf Lettuce\",\"count\":20,\"storage\":\"storage_2\"}"
-      },
-      {
-        "id": "32988da9-3ad5-4701-b5fd-e77d3f5f1ab6",
-        "title": "\u0421\u0440\u043e\u0447\u043d\u043e \u043f\u0440\u043e\u0434\u0430\u0442\u044c \u0421\u0430\u043b\u0430\u0442 \u0410\u0439\u0441\u0431\u0435\u0440\u0433",
-        "description": "",
-        "assigned_to": "vadim",
-        "created_at": "2025-05-07 22:56:48.693384",
-        "status": "todo",
-        "query": "{\"action\":\"sell\",\"product\":\"Iceberg Lettuce\",\"count\":25,\"storage\":\"storage_3\"}"
-      },
-      {
-        "id": "c85e468a-f23f-4d8c-b6ff-0ce39e07f125",
-        "title": "\u0421\u0440\u043e\u0447\u043d\u043e \u043f\u0440\u043e\u0434\u0430\u0442\u044c \u0417\u0435\u043b\u0435\u043d\u043e\u043b\u0438\u0441\u0442\u043d\u044b\u0439 \u0441\u0430\u043b\u0430\u0442",
-        "description": "",
-        "assigned_to": "vadim",
-        "created_at": "2025-05-07 22:56:48.699546",
-        "status": "todo",
-        "query": "{\"action\":\"sell\",\"product\":\"Green Leaf Lettuce\",\"count\":20,\"storage\":\"storage_4\"}"
-      },
-      {
-        "id": "17008939-183e-4b0d-8e58-2cc22fdccfd4",
-        "title": "\u0421\u0440\u043e\u0447\u043d\u043e \u043f\u0440\u043e\u0434\u0430\u0442\u044c \u041a\u043b\u0443\u0431\u043d\u0438\u043a\u0430",
-        "description": "",
-        "assigned_to": "vadim",
-        "created_at": "2025-05-07 22:56:48.704605",
-        "status": "todo",
-        "query": "{\"action\":\"sell\",\"product\":\"Strawberries\",\"count\":30,\"storage\":\"storage_12\"}"
-      },
-      {
-        "id": "a27a5b5b-f2ea-43b6-bbaa-99eeee2b0381",
-        "title": "\u0421\u0440\u043e\u0447\u043d\u043e \u043f\u0440\u043e\u0434\u0430\u0442\u044c \u0421\u0430\u043b\u0430\u0442 \u0420\u043e\u043c\u0430\u043d\u043e",
-        "description": "",
-        "assigned_to": "vadim",
-        "created_at": "2025-05-07 22:56:48.710604",
-        "status": "todo",
-        "query": "{\"action\":\"sell\",\"product\":\"Romaine Lettuce\",\"count\":15,\"storage\":\"storage_12\"}"
-      },
-      {
-        "id": "a50adf19-76c7-43f9-a9a4-12eeaf2ac759",
-        "title": "\u0421\u0440\u043e\u0447\u043d\u043e \u043f\u0440\u043e\u0434\u0430\u0442\u044c \u041a\u0440\u0430\u0441\u043d\u043e\u043b\u0438\u0441\u0442\u043d\u044b\u0439 \u0441\u0430\u043b\u0430\u0442",
-        "description": "",
-        "assigned_to": "vadim",
-        "created_at": "2025-05-07 22:56:48.717109",
-        "status": "todo",
-        "query": "{\"action\":\"sell\",\"product\":\"Red Leaf Lettuce\",\"count\":18,\"storage\":\"storage_13\"}"
-      },
-      {
-        "id": "02c8ab94-7716-47ea-ae28-f1da99f31d1c",
-        "title": "\u0421\u0440\u043e\u0447\u043d\u043e \u043f\u0440\u043e\u0434\u0430\u0442\u044c \u0410\u043f\u0435\u043b\u044c\u0441\u0438\u043d\u044b",
-        "description": "",
-        "assigned_to": "vadim",
-        "created_at": "2025-05-07 22:56:48.722110",
-        "status": "todo",
-        "query": "{\"action\":\"sell\",\"product\":\"Oranges\",\"count\":50,\"storage\":\"storage_14\"}"
-      },
-      {
-        "id": "e79ca374-a7c2-48fb-ba53-7abd501cfe43",
-        "title": "\u0421\u0440\u043e\u0447\u043d\u043e \u043f\u0440\u043e\u0434\u0430\u0442\u044c \u0421\u0430\u043b\u0430\u0442 \u0410\u0439\u0441\u0431\u0435\u0440\u0433",
-        "description": "",
-        "assigned_to": "vadim",
-        "created_at": "2025-05-07 22:56:48.729119",
-        "status": "todo",
-        "query": "{\"action\":\"sell\",\"product\":\"Iceberg Lettuce\",\"count\":20,\"storage\":\"storage_14\"}"
-      },
-      {
-        "id": "5ae54515-50a5-4ea9-ba84-d8438249513d",
-        "title": "\u0421\u0440\u043e\u0447\u043d\u043e \u043f\u0440\u043e\u0434\u0430\u0442\u044c \u0417\u0435\u043b\u0435\u043d\u043e\u043b\u0438\u0441\u0442\u043d\u044b\u0439 \u0441\u0430\u043b\u0430\u0442",
-        "description": "",
-        "assigned_to": "vadim",
-        "created_at": "2025-05-07 22:56:48.736138",
-        "status": "todo",
-        "query": "{\"action\":\"sell\",\"product\":\"Green Leaf Lettuce\",\"count\":18,\"storage\":\"storage_15\"}"
-      },
-      {
-        "id": "c82b76e1-0f9d-4e05-ad7c-335a336612ba",
-        "title": "\u0421\u0440\u043e\u0447\u043d\u043e \u043f\u0440\u043e\u0434\u0430\u0442\u044c \u0421\u0435\u043b\u044c\u0434\u0435\u0440\u0435\u0439",
-        "description": "",
-        "assigned_to": "vadim",
-        "created_at": "2025-05-07 22:56:48.743207",
-        "status": "todo",
-        "query": "{\"action\":\"sell\",\"product\":\"Celery\",\"count\":25,\"storage\":\"storage_15\"}"
-      },
-      {
-        "id": "dd98c879-02e3-421c-9851-26838e0430ae",
-        "title": "\u0421\u0440\u043e\u0447\u043d\u043e \u043f\u0440\u043e\u0434\u0430\u0442\u044c \u0426\u0432\u0435\u0442\u043d\u0430\u044f \u043a\u0430\u043f\u0443\u0441\u0442\u0430",
-        "description": "",
-        "assigned_to": "vadim",
-        "created_at": "2025-05-07 22:56:48.750207",
-        "status": "todo",
-        "query": "{\"action\":\"sell\",\"product\":\"Cauliflower\",\"count\":12,\"storage\":\"storage_16\"}"
+        "query": "{\"action\":\"sell\",\"product\":\"Potatoes\",\"count\":2,\"storage\":\"storage_2\"}"
       }
     ]
   },
-  "in_progress": {},
+  "in_progress": {
+    "sasha": []
+  },
   "done": {
     "sasha": [
       {
-        "id": "043e9678-c273-4077-8c81-2c3c87110970",
-        "title": "\u041d\u0435\u043e\u0431\u0445\u043e\u0434\u0438\u043c\u043e \u043f\u0440\u043e\u0434\u0430\u0442\u044c (2) \u041a\u0440\u0430\u0441\u043d\u043e\u043b\u0438\u0441\u0442\u043d\u044b\u0439 \u0441\u0430\u043b\u0430\u0442",
+        "id": "0da3456b-b3c3-417f-8db2-3d84981eb432",
+        "title": "\u041d\u0435\u043e\u0431\u0445\u043e\u0434\u0438\u043c\u043e \u043f\u0435\u0440\u0435\u0434\u0432\u0438\u043d\u0443\u0442\u044c \u0432 storage_1 (2) \u0421\u0430\u043b\u0430\u0442 \u0420\u043e\u043c\u0430\u043d\u043e",
         "description": "",
         "assigned_to": "sasha",
-        "created_at": "2025-05-07 12:35:48.809242",
+        "created_at": "2025-05-10 15:16:34.141514",
         "status": "done",
-        "query": "{\"action\":\"sell\",\"product\":\"Red Leaf Lettuce\",\"count\":2,\"storage\":\"storage_2\"}"
-      },
-      {
-        "id": "3d1223e2-a456-4632-b3e9-cd46a5686c45",
-        "title": "\u041d\u0435\u043e\u0431\u0445\u043e\u0434\u0438\u043c\u043e \u043f\u0440\u043e\u0434\u0430\u0442\u044c \u0432 storage_1 (2) \u041a\u043b\u0443\u0431\u043d\u0438\u043a\u0430",
-        "description": "",
-        "assigned_to": "sasha",
-        "created_at": "2025-05-07 14:31:57.879922",
-        "status": "done",
-        "query": "{\"action\":\"sell\",\"product\":\"Strawberries\",\"count\":2,\"storage\":\"storage_1\"}"
-      },
-      {
-        "id": "9aab6273-40e8-4b30-9531-c6f7ebeb6433",
-        "title": "\u041d\u0435\u043e\u0431\u0445\u043e\u0434\u0438\u043c\u043e \u043f\u0435\u0440\u0435\u0434\u0432\u0438\u043d\u0443\u0442\u044c \u043d\u0430 storage_2 (10) \u041a\u0430\u0440\u0442\u043e\u0444\u0435\u043b\u044c",
-        "description": "",
-        "assigned_to": "sasha",
-        "created_at": "2025-05-07 14:43:48.198825",
-        "status": "done",
-        "query": "{\"action\":\"move\",\"product\":\"Potatoes\",\"count\":10,\"storage\":\"storage_1\",\"from\":\"storage_2\"}"
-      },
-      {
-        "id": "7c7c3721-b6fa-4a77-8842-9b5159a177a9",
-        "title": "\u041d\u0435\u043e\u0431\u0445\u043e\u0434\u0438\u043c\u043e \u0434\u043e\u0431\u0430\u0432\u0438\u0442\u044c \u043d\u0430 storage_1 (2) \u0421\u0430\u043b\u0430\u0442 \u0420\u043e\u043c\u0430\u043d\u043e",
-        "description": "",
-        "assigned_to": "sasha",
-        "created_at": "2025-05-07 14:49:50.958857",
-        "status": "done",
-        "query": "{\"action\":\"add\",\"product\":\"Romaine Lettuce\",\"count\":2,\"storage\":\"storage_1\"}"
-      },
-      {
-        "id": "99a6f241-0508-4e25-aaa0-1ac01bf9c8c4",
-        "title": "\u041d\u0435\u043e\u0431\u0445\u043e\u0434\u0438\u043c\u043e \u0434\u043e\u0431\u0430\u0432\u0438\u0442\u044c \u043d\u0430 storage_1 (5) \u0410\u043f\u0435\u043b\u044c\u0441\u0438\u043d\u044b",
-        "description": "",
-        "assigned_to": "sasha",
-        "created_at": "2025-05-07 14:56:15.617639",
-        "status": "done",
-        "query": "{\"action\":\"add\",\"product\":\"Oranges\",\"count\":5,\"storage\":\"storage_1\"}"
+        "query": "{\"action\":\"move\",\"product\":\"Romaine Lettuce\",\"count\":2,\"storage\":\"storage_2\",\"from\":\"storage_1\"}"
       }
     ],
     "vadim": [
       {
-        "id": "5daa8636-5c54-424f-80ba-577480331225",
-        "title": "\u041d\u0435\u043e\u0431\u0445\u043e\u0434\u0438\u043c\u043e \u043f\u0440\u043e\u0434\u0430\u0442\u044c \u0432 storage_1 (31) \u041a\u043b\u0443\u0431\u043d\u0438\u043a\u0430",
+        "id": "ee8f1fc7-f1fc-4722-8f31-44837f1ed0ce",
+        "title": "\u041d\u0435\u043e\u0431\u0445\u043e\u0434\u0438\u043c\u043e \u043f\u0440\u043e\u0434\u0430\u0442\u044c \u0432 storage_1 (2) \u0421\u0430\u043b\u0430\u0442 \u0420\u043e\u043c\u0430\u043d\u043e",
         "description": "",
         "assigned_to": "vadim",
-        "created_at": "2025-05-07 14:39:17.284961",
+        "created_at": "2025-05-10 15:15:40.784825",
         "status": "done",
-        "query": "{\"action\":\"sell\",\"product\":\"Strawberries\",\"count\":31,\"storage\":\"storage_1\"}"
+        "query": "{\"action\":\"sell\",\"product\":\"Romaine Lettuce\",\"count\":2,\"storage\":\"storage_1\"}"
+      },
+      {
+        "id": "44615344-80a9-47f8-902c-45b3b970a1b7",
+        "title": "\u041d\u0435\u043e\u0431\u0445\u043e\u0434\u0438\u043c\u043e \u0434\u043e\u0431\u0430\u0432\u0438\u0442\u044c \u043d\u0430 storage_1 (7) \u041d\u0435\u043a\u0442\u0430\u0440\u0438\u043d\u044b",
+        "description": "",
+        "assigned_to": "vadim",
+        "created_at": "2025-05-10 15:17:43.712722",
+        "status": "done",
+        "query": "{\"action\":\"add\",\"product\":\"Nectarines\",\"count\":7,\"storage\":\"storage_1\"}"
       }
     ]
   }

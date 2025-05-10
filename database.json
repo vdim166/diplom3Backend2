@@ -15,6 +15,14 @@
       "hashed_password": "$2b$12$e86uX45Pze7aty9uqmwgh.gL3GkxCf2yHjOfP6BqyHTnwo0kcUooe",
       "disabled": false,
       "is_manager": false
+    },
+    "sasha123": {
+      "username": "sasha123",
+      "email": null,
+      "full_name": null,
+      "hashed_password": "$2b$12$a3Hp1KWO24n3GiVBcDO/V.66Q5Z50LfID3dNkVeY/VxfpWYc36GnC",
+      "disabled": false,
+      "is_manager": true
     }
   }
 }

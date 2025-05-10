@@ -13,9 +13,9 @@ class Item(BaseModel):
     count: int
     storage_id: str
     category: Optional[str] = None
-    expiration_date:str = Field(
+    expiration_date: str = Field(
         default_factory=lambda: (
-            datetime.now(timezone.utc) + timedelta(days=30)
+            (datetime.now(timezone.utc) + timedelta(days=30))
             .strftime('%Y-%m-%dT%H:%M:%SZ')
         )
     )
