@@ -25,6 +25,8 @@ task_db = TaskDB()
 storage_db = StorageDB()
 storage_db.init_storages()
 
+api = FastAPI()
+
 SECRET_KEY = "my-secret-key"  
 ALGORITHM = "HS256"
 ACCESS_TOKEN_EXPIRE_MINUTES = 30
@@ -127,7 +129,7 @@ async def get_current_active_user(current_user: User = Depends(get_current_user)
 # Routes
 
 
-@app.post("/token", response_model=Token)
+@api.post("/token", response_model=Token)
 async def login_for_access_token(login_data: LoginRequest = Body(...)):
     user = authenticate_user(login_data.username, login_data.password)
     if not user:
@@ -142,7 +144,7 @@ async def login_for_access_token(login_data: LoginRequest = Body(...)):
     )
     return {"access_token": access_token, "token_type": "bearer"}
 
-@app.post("/register")
+@api.post("/register")
 async def register_user(
     username: str = Body(...),
     password: str = Body(...),
@@ -167,16 +169,16 @@ async def register_user(
 
 class UserList(BaseModel):
     users: List[str] 
-@app.get('/users', response_model=UserList)
+@api.get('/users', response_model=UserList)
 async def read_all_users():
     return db.get_all_users()
 
 
-@app.get("/users/me", response_model=User)
+@api.get("/users/me", response_model=User)
 async def read_users_me(current_user: User = Depends(get_current_active_user)):
     return current_user
 
-@app.get("/validate-token")
+@api.get("/validate-token")
 async def validate_token(authorization: str = Header(...)):
     try:
         if not authorization.startswith("Bearer "):
@@ -224,19 +226,20 @@ async def validate_token(authorization: str = Header(...)):
             detail=f"Invalid token: {str(e)}"
         )
 
-@app.post("/tasks/", response_model=Task)
+@api.post("/tasks/", response_model=Task)
 async def create_task(task_data: TaskCreate = Body(...)):
     return task_db.create_task(task_data)
 
-@app.get("/tasks/", response_model=Dict[str, Dict[str, List[Task]]])
+@api.get("/tasks/", response_model=Dict[str, Dict[str, List[Task]]])
 async def get_all_tasks():
+
     return task_db.get_all_tasks()
 
-@app.get("/tasks/{user}", response_model=Dict[str, List[Task]])
+@api.get("/tasks/{user}", response_model=Dict[str, List[Task]])
 async def get_user_tasks(user: str):
     return task_db.get_user_tasks(user)
 
-@app.put("/tasks/{task_id}", response_model=Task)
+@api.put("/tasks/{task_id}", response_model=Task)
 async def update_task(
     task_id: str, 
     update_data: TaskUpdate = Body(...)
@@ -272,7 +275,7 @@ async def update_task(
 
     return task
 
-@app.post("/tasks/{task_id}/move", response_model=Task)
+@api.post("/tasks/{task_id}/move", response_model=Task)
 async def move_task(
     task_id: str,
     move_data: TaskMove = Body(...)
@@ -286,38 +289,38 @@ async def move_task(
         raise HTTPException(status_code=404, detail="Task not found")
     return task
 
-@app.delete("/tasks/{task_id}", response_model=Dict[str, str])
+@api.delete("/tasks/{task_id}", response_model=Dict[str, str])
 async def delete_task(task_id: str):
     if not task_db.delete_task(task_id):
         raise HTTPException(status_code=404, detail="Task not found")
     return {"message": "Task deleted successfully"}
 
 
-@app.post("/storages/{storage_id}/items", response_model=Item)
+@api.post("/storages/{storage_id}/items", response_model=Item)
 async def add_item(storage_id: str, item_data: ItemCreate = Body(...)):
     try:
         return storage_db.add_item(storage_id, item_data)
     except ValueError as e:
         raise HTTPException(status_code=404, detail=str(e))
 
-@app.get("/items", response_model=List[Item])
+@api.get("/items", response_model=List[Item])
 async def get_items(storage_id: Optional[str] = None):
     return storage_db.get_items(storage_id)
 
-@app.put("/items/{item_id}", response_model=Item)
+@api.put("/items/{item_id}", response_model=Item)
 async def update_item(item_id: str, storage_id:str, update_data: ItemUpdate = Body(...)):
     item = storage_db.update_item(item_id,storage_id, update_data)
     if not item:
         raise HTTPException(status_code=404, detail="Товар не найден")
     return item
 
-@app.delete("/items/{item_id}")
+@api.delete("/items/{item_id}")
 async def delete_item(item_id: str):
     if not storage_db.delete_item(item_id):
         raise HTTPException(status_code=404, detail="Товар не найден")
     return {"message": "Товар удален"}
 
-@app.get("/storages", response_model=Dict[str, Storage])
+@api.get("/storages", response_model=Dict[str, Storage])
 async def get_storages():
     return storage_db.storages
 
@@ -370,10 +373,10 @@ async def predict_price(input_data: PredictionInput = Body(...)):
             detail=f"Prediction failed: {str(e)}"
         )
 
+app.mount("/api", api)
 
-
-@app.get("/{path:path}")
-async def serve_spa(path: str):
+@app.get("/")
+async def serve_index():
     return FileResponse("dist/index.html")
 
 if __name__ == "__main__":
