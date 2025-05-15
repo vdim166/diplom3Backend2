@@ -232,7 +232,6 @@ async def create_task(task_data: TaskCreate = Body(...)):
 
 @api.get("/tasks/", response_model=Dict[str, Dict[str, List[Task]]])
 async def get_all_tasks():
-
     return task_db.get_all_tasks()
 
 @api.get("/tasks/{user}", response_model=Dict[str, List[Task]])
@@ -339,7 +338,7 @@ class PredictionInput(BaseModel):
     day: int
     day_of_week: int
 
-@app.post("/predict", response_model=Prediction)
+@api.post("/predict", response_model=Prediction)
 async def predict_price(input_data: PredictionInput = Body(...)):
     """
     Predict retail price based on input parameters
