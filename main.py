@@ -12,6 +12,8 @@ from typing import List, Optional, Dict
 from StorageDB import StorageDB, Item, Storage, ItemCreate, ItemUpdate
 from model import PricePredictor
 import json
+from fastapi.staticfiles import StaticFiles
+from fastapi.responses import FileResponse
 
 
 predictor = PricePredictor()
@@ -53,6 +55,12 @@ pwd_context = CryptContext(schemes=["bcrypt"], deprecated="auto")
 oauth2_scheme = OAuth2PasswordBearer(tokenUrl="token")
 
 app = FastAPI()
+
+
+    
+# Раздача статики (JS, CSS, изображения)
+app.mount("/assets", StaticFiles(directory="dist/assets"), name="assets")
+
 app.add_middleware(
     CORSMiddleware,
     allow_origins=["*"],
@@ -60,6 +68,7 @@ app.add_middleware(
     allow_methods=["*"],
     allow_headers=["*"],
 )
+
 
 def verify_password(plain_password: str, hashed_password: str):
     return pwd_context.verify(plain_password, hashed_password)
@@ -362,6 +371,13 @@ async def predict_price(input_data: PredictionInput = Body(...)):
         )
 
 
+
+@app.get("/{path:path}")
+async def serve_spa(path: str):
+    return FileResponse("dist/index.html")
+
 if __name__ == "__main__":
     import uvicorn
     uvicorn.run(app, host="0.0.0.0", port=8000)
+
+    
