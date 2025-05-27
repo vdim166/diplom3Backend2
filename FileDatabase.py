@@ -22,6 +22,22 @@ class FileDatabase:
 
     def get_all_users(self):
         return {'users': list(self.data["users"].keys())}
+    
+    def get_all_managers(self):
+        result = []
+        for key, value in self.data["users"].items():
+            if value["is_manager"] == True:
+                result.append(key)
+
+        return {'users': result}
+    
+    def get_all_workers(self):
+        result = []
+        for key, value in self.data["users"].items():
+            if value["is_manager"] == False:
+                result.append(key)
+
+        return {'users': result}
 
     def get_user(self, username: str) -> Optional[Dict]:
         return self.data["users"].get(username)

@@ -174,6 +174,24 @@ async def read_all_users():
     return db.get_all_users()
 
 
+@api.get('/managers', response_model=UserList)
+async def read_all_users():
+    return db.get_all_managers()
+
+@api.get('/workers', response_model=UserList)
+async def read_all_users():
+    return db.get_all_workers()
+
+
+class UpdateUser(BaseModel):
+    is_manager: bool
+    username: str
+
+@api.post('/user/update/', response_model=User)
+async def add_manager(data: UpdateUser = Body(...)):
+    return db.update_user(data.username, {"is_manager": data.is_manager})
+
+
 @api.get("/users/me", response_model=User)
 async def read_users_me(current_user: User = Depends(get_current_active_user)):
     return current_user
