@@ -5,14 +5,14 @@
       "name": "\u041e\u0441\u043d\u043e\u0432\u043d\u043e\u0439 \u0441\u043a\u043b\u0430\u0434",
       "location": "\u0417\u043e\u043d\u0430 A",
       "capacity": 1000,
-      "current_load": 72
+      "current_load": 77
     },
     {
       "id": "storage_2",
       "name": "\u0425\u043e\u043b\u043e\u0434\u0438\u043b\u044c\u043d\u0438\u043a \u21161",
       "location": "\u0417\u043e\u043d\u0430 B",
       "capacity": 500,
-      "current_load": 18
+      "current_load": 23
     },
     {
       "id": "storage_3",
@@ -174,10 +174,10 @@
       {
         "id": "item_2",
         "name": "Romaine Lettuce",
-        "count": 16,
+        "count": 14,
         "storage_id": "storage_1",
         "category": "\u041e\u0432\u043e\u0449\u0438",
-        "expiration_date": "2025-05-15T00:00:00Z"
+        "expiration_date": "2025-06-07T00:00:00Z"
       },
       {
         "id": "item_4",
@@ -202,6 +202,14 @@
         "storage_id": "storage_1",
         "category": null,
         "expiration_date": "2025-06-09T12:19:59Z"
+      },
+      {
+        "id": "8a39bd9b-0fe8-4961-bfb5-76f94a57b25a",
+        "name": "Strawberries",
+        "count": 5,
+        "storage_id": "storage_1",
+        "category": null,
+        "expiration_date": "2025-06-28T00:41:15Z"
       }
     ],
     "storage_2": [
@@ -216,7 +224,7 @@
       {
         "id": "item_4",
         "name": "Potatoes",
-        "count": 25,
+        "count": 23,
         "storage_id": "storage_2",
         "category": "\u041e\u0432\u043e\u0449\u0438",
         "expiration_date": "2025-06-03T00:00:00Z"
@@ -228,6 +236,14 @@
         "storage_id": "storage_2",
         "category": "\u041e\u0432\u043e\u0449\u0438",
         "expiration_date": "2025-05-15T00:00:00Z"
+      },
+      {
+        "id": "8a39bd9b-0fe8-4961-bfb5-76f94a57b25a",
+        "name": "Strawberries",
+        "count": 5,
+        "storage_id": "storage_2",
+        "category": null,
+        "expiration_date": "2025-06-28T00:41:15Z"
       }
     ],
     "storage_3": [

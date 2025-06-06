@@ -30,6 +30,7 @@ class ItemUpdate(BaseModel):
     count: Optional[int] = None
     category: Optional[str] = None
     storage_id: Optional[str] = None
+    expiration_date: Optional[str] = None
 
 class Storage(BaseModel):
     id: str
@@ -130,16 +131,29 @@ class StorageDB:
             return self.items.get(storage_id, [])
         return [item for items in self.items.values() for item in items]
 
-    def update_item(self, item_name: str,storage_id:str, update_data: ItemUpdate) -> Optional[Item]:
+    def update_item(self, item_name: str, storage_id : str, update_data: ItemUpdate) -> Optional[Item]:
 
         for item_index in range(len(self.items[storage_id])):
             item = self.items[storage_id][item_index]
             if item.name == item_name:
-                self.items[storage_id][item_index] = update_data
 
+                # self.items[storage_id][item_index] = update_data
+                # self._save()
+                # break
 
+                current_item = item.dict() if hasattr(item, 'dict') else dict(item)
+                
+                # Get the update data as a dictionary, excluding None values
+                update_dict = update_data.dict(exclude_unset=True)
+                
+                # Update only the fields that are provided in update_data
+                updated_item = {**current_item, **update_dict}
+                
+                # Convert back to Item model if needed (replace Item with your actual item class)
+                self.items[storage_id][item_index] = Item(**updated_item)
+                
                 self._save()
-                break
+                return self.items[storage_id][item_index]
                     
         
         return None

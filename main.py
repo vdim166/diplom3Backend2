@@ -324,9 +324,9 @@ async def add_item(storage_id: str, item_data: ItemCreate = Body(...)):
 async def get_items(storage_id: Optional[str] = None):
     return storage_db.get_items(storage_id)
 
-@api.put("/items/{item_id}", response_model=Item)
-async def update_item(item_id: str, storage_id:str, update_data: ItemUpdate = Body(...)):
-    item = storage_db.update_item(item_id,storage_id, update_data)
+@api.put("/items/{storage_id}/{item_name}", response_model=Item)
+async def update_item(item_name: str, storage_id:str, update_data: ItemUpdate = Body(...)):
+    item = storage_db.update_item(item_name, storage_id, update_data)
     if not item:
         raise HTTPException(status_code=404, detail="Товар не найден")
     return item
