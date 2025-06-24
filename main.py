@@ -187,9 +187,18 @@ class UpdateUser(BaseModel):
     is_manager: bool
     username: str
 
+
+class DeleteUser(BaseModel):
+    username: str
+
 @api.post('/user/update/', response_model=User)
 async def add_manager(data: UpdateUser = Body(...)):
     return db.update_user(data.username, {"is_manager": data.is_manager})
+
+
+@api.post('/user/delete/', response_model=bool)
+async def delete_user(data: DeleteUser = Body(...)):
+    return db.delete_user(data.username)
 
 
 @api.get("/users/me", response_model=User)
